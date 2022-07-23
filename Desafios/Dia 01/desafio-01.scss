@@ -1,2 +1,124 @@
 @use "../../assets/styles/base/colorVariables" as colors;
 @use "../../assets/styles/base/reset";
+
+body {
+	align-items: center;
+	background-color: #727272;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.list-of-midia-socials {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+
+	li {
+		height: 60px;
+		margin: 25px;
+		position: relative;
+		transform: rotate(-25deg) skew(25deg);
+		transform-style: preserve-3d;
+		width: 60px;
+
+		&::before {
+			background-color: #222;
+			bottom: -10px;
+			content: "";
+			height: 10px;
+			left: 0;
+			position: absolute;
+			transform: skewX(-41deg);
+			transform-origin: top;
+			width: 100%;
+		}
+
+		&::after {
+			background-color: #222;
+			content: "";
+			height: 100%;
+			left: -9px;
+			position: absolute;
+			top: 0;
+			transform: skewY(-49deg);
+			transform-origin: right;
+			width: 9px;
+		}
+
+		a {
+			font-size: 0.5em;
+
+			span {
+				align-items: center;
+				background-color: #333;
+				color: rgba(255, 255, 255, 0.7);
+				display: flex !important;
+				font-size: 30px;
+				height: 100%;
+				justify-content: center;
+				left: 0;
+				position: absolute;
+				transition: 0.3s;
+				top: 0;
+				width: 100%;
+			}
+		}
+
+		&:hover span {
+			box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
+			color: #fff;
+			transition: 0.6s;
+			z-index: 1000;
+		}
+
+		&:hover span:nth-child(5) {
+			opacity: 1;
+			transform: translate(40px, -40px);
+		}
+		&:hover span:nth-child(4) {
+			opacity: 0.8;
+			transform: translate(30px, -30px);
+		}
+		&:hover span:nth-child(3) {
+			opacity: 0.6;
+			transform: translate(20px, -20px);
+		}
+		&:hover span:nth-child(2) {
+			opacity: 0.4;
+			transform: translate(10px, -10px);
+		}
+		&:hover span:nth-child(1) {
+			opacity: 0.2;
+			transform: translate(0px, 0px);
+		}
+		&:nth-child(1) span {
+			background-color: colors.$color-linkedin;
+		}
+		&:nth-child(2) span {
+			background-color: colors.$color-github;
+		}
+		&:nth-child(3) span {
+			background-color: colors.$color-google;
+		}
+		&:nth-child(4) span {
+			background-color: colors.$color-medium;
+		}
+		&:nth-child(5) span {
+			background-color: colors.$color-whatsapp;
+		}
+		&:nth-child(6) span {
+			background-color: colors.$color-codepen;
+		}
+		&:nth-child(7) span {
+			background-color: colors.$color-instagram;
+		}
+		&:nth-child(8) span {
+			background-color: colors.$color-discord;
+		}
+		&:nth-child(9) span {
+			background-color: colors.$color-twitter;
+		}
+	}
+}
