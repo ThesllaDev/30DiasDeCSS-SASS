@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
@@ -9,25 +10,39 @@ ul {
 }
 
 body {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #727272;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 100vh;
 }
 
 .list-of-midia-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
 .list-of-midia-socials li {
   height: 60px;
   margin: 25px;
   position: relative;
-  transform: rotate(-25deg) skew(25deg);
-  transform-style: preserve-3d;
+  -webkit-transform: rotate(-25deg) skew(25deg);
+      -ms-transform: rotate(-25deg) skew(25deg);
+          transform: rotate(-25deg) skew(25deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
   width: 60px;
 }
 .list-of-midia-socials li::before {
@@ -37,8 +52,12 @@ body {
   height: 10px;
   left: 0;
   position: absolute;
-  transform: skewX(-41deg);
-  transform-origin: top;
+  -webkit-transform: skewX(-41deg);
+      -ms-transform: skewX(-41deg);
+          transform: skewX(-41deg);
+  -webkit-transform-origin: top;
+      -ms-transform-origin: top;
+          transform-origin: top;
   width: 100%;
 }
 .list-of-midia-socials li::after {
@@ -48,52 +67,77 @@ body {
   left: -9px;
   position: absolute;
   top: 0;
-  transform: skewY(-49deg);
-  transform-origin: right;
+  -webkit-transform: skewY(-49deg);
+      -ms-transform: skewY(-49deg);
+          transform: skewY(-49deg);
+  -webkit-transform-origin: right;
+      -ms-transform-origin: right;
+          transform-origin: right;
   width: 9px;
 }
 .list-of-midia-socials li a {
   font-size: 0.5em;
 }
 .list-of-midia-socials li a span {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #333;
   color: rgba(255, 255, 255, 0.7);
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
   font-size: 30px;
   height: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   left: 0;
   position: absolute;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   top: 0;
   width: 100%;
 }
 .list-of-midia-socials li:hover span {
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
   color: #fff;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
   transition: 0.6s;
   z-index: 1000;
 }
 .list-of-midia-socials li:hover span:nth-child(5) {
   opacity: 1;
-  transform: translate(40px, -40px);
+  -webkit-transform: translate(40px, -40px);
+      -ms-transform: translate(40px, -40px);
+          transform: translate(40px, -40px);
 }
 .list-of-midia-socials li:hover span:nth-child(4) {
   opacity: 0.8;
-  transform: translate(30px, -30px);
+  -webkit-transform: translate(30px, -30px);
+      -ms-transform: translate(30px, -30px);
+          transform: translate(30px, -30px);
 }
 .list-of-midia-socials li:hover span:nth-child(3) {
   opacity: 0.6;
-  transform: translate(20px, -20px);
+  -webkit-transform: translate(20px, -20px);
+      -ms-transform: translate(20px, -20px);
+          transform: translate(20px, -20px);
 }
 .list-of-midia-socials li:hover span:nth-child(2) {
   opacity: 0.4;
-  transform: translate(10px, -10px);
+  -webkit-transform: translate(10px, -10px);
+      -ms-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
 }
 .list-of-midia-socials li:hover span:nth-child(1) {
   opacity: 0.2;
-  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+      -ms-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
 }
 .list-of-midia-socials li:nth-child(1) span {
   background-color: #0a66c2;
