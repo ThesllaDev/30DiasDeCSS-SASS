@@ -50,11 +50,21 @@
 ### Índice dos desafios: 📋
 
 * [Dia 01 - Ícones de mídias sociais em camada](#id01) ✔️
+* [Dia 02 - Loaders animados](#id02) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/NWYgoNy) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2001) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6956707177625448448-vLhH)**
+
+---
+
+##  Desafio dia 02 - Loaders animados <a name="id02"></a>
+<a href="https://codepen.io/theslladev/full/zYWdvaw" >![Dia 01](./assets/img/demo-challenge-02.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/zYWdvaw) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2002) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6957075872700862464-OZMs)**
+
+---
 
 ### 📝 Licença
 
