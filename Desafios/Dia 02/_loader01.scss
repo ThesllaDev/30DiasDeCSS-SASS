@@ -1,0 +1,18 @@
+.loader__01 {
+	animation: spin-01 1s linear infinite;
+
+	border: 8px solid rgba(255, 0, 0, 0.1) {
+		left-color: #fff;
+		right-color: #fff;
+		radius: 50%;
+	}
+
+	height: 60px;
+	width: 60px;
+}
+
+@keyframes spin-01 {
+	to {
+		transform: rotate(360deg);
+	}
+}

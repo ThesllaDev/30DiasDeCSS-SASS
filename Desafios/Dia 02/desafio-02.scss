@@ -1,0 +1,26 @@
+@use "../../assets/styles/base/reset";
+
+@use "loader01";
+
+main {
+	align-items: center;
+	animation: animate-bg 5s linear infinite;
+	background-color: #1e0421;
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	justify-content: center;
+}
+
+main > div {
+	margin: 50px;
+}
+
+@keyframes animate-bg {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+	100% {
+		filter: hue-rotate(360deg);
+	}
+}
