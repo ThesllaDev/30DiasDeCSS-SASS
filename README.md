@@ -1,6 +1,6 @@
 ## 📝🎨🚀 30diasDeCSS 🚀🎨📝
 
- 30 dias de CSS3, é um desafio para ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos de animações diariamente, utilizando HTML e CSS (no momento que estou realizando esse projeto também estou aprendendo sobre o SASS que é um pré-processador CSS, então também decidi adiciona-lo ao desafio)
+ 30 dias de CSS3, é um desafio para ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos de animações diariamente, utilizando HTML e CSS (no momento que estou realizando esse projeto também estou aprendendo sobre o SASS que é um pré-processador CSS, então também decidi adicioná-lo ao desafio)
 
  Créditos a idealizadora do desafio 30 dias de CSS [@MilenaCarecho](https://github.com/MilenaCarecho) ⭐
  Repositório original do desafio: [30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS) ⭐
@@ -9,7 +9,7 @@
 
  30 dias de CSS é um desafio que vou aceitar (e você também pode participar) a partir de 23 de julho de 2022, que visa melhorar minhas habilidades em HTML5, CSS3 e SASS através da realização de projetos durante 30 dias
 
-***Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não tem data de inicio fixa, cada um faz os seus 30 dias e pode personalizar com suas próprias regras, eu ficarei contente com sua participação 😉***
+***Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não tem data de início fixa, cada um faz os seus 30 dias e pode personalizar com suas próprias regras, eu ficarei contente com sua participação 😉***
 
 ## Para participar:
 
@@ -31,7 +31,7 @@
 ## 🛠️ Tecnologias utilizadas no processo
 * ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-#### Referencias que usei para aprender 📚
+#### Referências que usei para aprender 📚
 
 [W3schools](https://www.w3schools.com) -
 [MDN Web Docs](https://developer.mozilla.org/pt-BR) -
@@ -42,7 +42,7 @@
 
 ### Principais tópicos que aprendi durante o processo
 
-- Váriaveis SASS (Muito usadas para armazenar informações e reutilizar)
+- Variáveis SASS (Muito usadas para armazenar informações e reutilizar)
 - Módulo `@use` (Para carregar e combinar múltiplas folhas de estilo)
 - Arquivos SASS parciais (São arquivos que devem ser importados mas não compilados)
 - Aninhamento de seletores e propriedades CSS (São úteis para combinar seletores e propriedades CSS)
@@ -68,4 +68,4 @@
 
 ### 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto está sob a licença [MIT](./LICENSE).
