@@ -1,0 +1,29 @@
+@use "../../assets/styles/base/reset";
+
+@use "button-01";
+
+body {
+	background-color: black;
+}
+
+a {
+	letter-spacing: 2px;
+
+	text: {
+		align: center;
+		decoration: none;
+		transform: uppercase;
+	}
+}
+
+a {
+	margin: 30px;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	justify-content: space-evenly;
+}

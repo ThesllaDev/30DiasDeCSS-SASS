@@ -1,0 +1,39 @@
+.button-01 {
+    color: #FF0000;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    transform: translate(-25%, 0%);
+    width: 180px;
+
+    svg {
+        fill: transparent;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    rect {
+        fill: transparent;
+        height: 100%;
+        left: 0;
+        position: absolute;
+
+        stroke: #FF0000 {
+            dasharray: 100, 400;
+            dashoffset: 217;
+            width: 4;
+        }
+
+        top: 0;
+        transition: 1s;
+        width: 100%;
+    }
+
+    &:hover svg rect {
+        stroke-dasharray: 500, 500;
+        stroke-dashoffset: 0;
+    }
+}
