@@ -1,3 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ededed;
+}
+
+a:focus,
+button:focus {
+  outline: #000 dotted 3px;
+  outline-offset: 0.3em;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p {
+  line-height: 1.5;
+  max-width: 80ch;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
