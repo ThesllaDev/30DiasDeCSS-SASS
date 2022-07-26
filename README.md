@@ -46,12 +46,14 @@
 - Módulo `@use` (Para carregar e combinar múltiplas folhas de estilo)
 - Arquivos SASS parciais (São arquivos que devem ser importados mas não compilados)
 - Aninhamento de seletores e propriedades CSS (São úteis para combinar seletores e propriedades CSS)
+- `@extend` (Permite estender um conjunto de propriedades CSS de um seletor para outro)
 
 ### Índice dos desafios: 📋
 
 * [Dia 01 - Ícones de mídias sociais em camada](#id01) ✔️
 * [Dia 02 - Loaders animados](#id02) ✔️
 * [Dia 03 - Letreiro com mudança de cor de texto](#id03) ✔️
+* [Dia 04 - Botões com efeito de borda, hover e click](#id04) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -71,6 +73,13 @@
 <a href="https://codepen.io/theslladev/full/ZExJXoZ" >![Dia 03](./assets/img/demo-challenge-03.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/ZExJXoZ) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2003) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6957346363181293568-GXsP)**
+
+---
+
+##  Desafio dia 04 - Botões com efeito de borda, hover e click <a name="id04"></a>
+<a href="https://codepen.io/theslladev/full/MWVEaQw" >![Dia 04](./assets/img/demo-challenge-04.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/MWVEaQw) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2004) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6957743039490453504-S_aJ)**
 
 ---
 
