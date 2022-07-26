@@ -1,6 +1,7 @@
 @use "../../assets/styles/base/reset";
 
 @use "button-01";
+@use "button-02";
 
 body {
 	background-color: black;
@@ -16,7 +17,8 @@ a {
 	}
 }
 
-a {
+a,
+button {
 	margin: 30px;
 }
 

@@ -42,6 +42,149 @@ ul {
   stroke-dashoffset: 0;
 }
 
+.borderStyles, .button-02 span:nth-child(4), .button-02 span:nth-child(3), .button-02 span:nth-child(2), .button-02 span:nth-child(1) {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #ffdd00);
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+}
+
+.button-02 {
+  background: linear-gradient(to left top, #00296b 50%, #00509d 50%);
+  border-style: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
+  font-family: "Lato";
+  font-size: 23px;
+  font-weight: 600;
+  height: 70px;
+  letter-spacing: 3px;
+  outline: none;
+  overflow: hidden;
+  padding: 0px;
+  position: relative;
+  transition: all 0.5s;
+  width: 200px;
+}
+.button-02 span {
+  display: block;
+  position: absolute;
+}
+.button-02 span:nth-child(1) {
+  -webkit-animation: outline-1 2s linear infinite;
+          animation: outline-1 2s linear infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  height: 3px;
+  left: -200px;
+  top: 0px;
+  width: 200px;
+}
+.button-02 span:nth-child(2) {
+  -webkit-animation: outline-2 2s linear infinite;
+          animation: outline-2 2s linear infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  height: 70px;
+  right: 0px;
+  top: -70px;
+  width: 3px;
+}
+.button-02 span:nth-child(3) {
+  -webkit-animation: outline-3 2s linear infinite;
+          animation: outline-3 2s linear infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  bottom: 0px;
+  height: 3px;
+  right: -200px;
+  width: 200px;
+}
+.button-02 span:nth-child(4) {
+  -webkit-animation: outline-4 2s linear infinite;
+          animation: outline-4 2s linear infinite;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  bottom: -70px;
+  height: 70px;
+  left: 0px;
+  width: 3px;
+}
+.button-02:hover {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+  transform: scale(1.5, 1.5);
+  transition: all 0.5s;
+}
+.button-02:hover span {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes outline-1 {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 200px;
+  }
+}
+
+@keyframes outline-1 {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 200px;
+  }
+}
+@-webkit-keyframes outline-2 {
+  0% {
+    top: -70px;
+  }
+  100% {
+    top: 70px;
+  }
+}
+@keyframes outline-2 {
+  0% {
+    top: -70px;
+  }
+  100% {
+    top: 70px;
+  }
+}
+@-webkit-keyframes outline-3 {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 200px;
+  }
+}
+@keyframes outline-3 {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 200px;
+  }
+}
+@-webkit-keyframes outline-4 {
+  0% {
+    bottom: -70px;
+  }
+  100% {
+    bottom: 70px;
+  }
+}
+@keyframes outline-4 {
+  0% {
+    bottom: -70px;
+  }
+  100% {
+    bottom: 70px;
+  }
+}
 body {
   background-color: black;
 }
@@ -53,7 +196,8 @@ a {
   text-transform: uppercase;
 }
 
-a {
+a,
+button {
   margin: 30px;
 }
 

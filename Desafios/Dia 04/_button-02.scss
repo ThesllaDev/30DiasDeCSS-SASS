@@ -1,0 +1,123 @@
+.borderStyles {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0), #ffdd00);
+	border-top-right-radius: 1px;
+	border-bottom-right-radius: 1px;
+}
+
+.button-02 {
+	background: linear-gradient(to left top, #00296b 50%, #00509d 50%);
+	border-style: none;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	cursor: pointer;
+
+	font: {
+		family: "Lato";
+		size: 23px;
+		weight: 600;
+	}
+
+	height: 70px;
+	letter-spacing: 3px;
+	outline: none;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+	transition: all 0.5s;
+	width: 200px;
+
+	span {
+		display: block;
+		position: absolute;
+
+		&:nth-child(1) {
+			animation: outline-1 2s linear infinite;
+			animation-delay: 1s;
+			height: 3px;
+			@extend .borderStyles;
+			left: -200px;
+			top: 0px;
+			width: 200px;
+		}
+
+		&:nth-child(2) {
+			animation: outline-2 2s linear infinite;
+			animation-delay: 2s;
+			height: 70px;
+			@extend .borderStyles;
+			right: 0px;
+			top: -70px;
+			width: 3px;
+		}
+
+		&:nth-child(3) {
+			animation: outline-3 2s linear infinite;
+			animation-delay: 3s;
+			bottom: 0px;
+			height: 3px;
+			@extend .borderStyles;
+			right: -200px;
+			width: 200px;
+		}
+
+		&:nth-child(4) {
+			animation: outline-4 2s linear infinite;
+			animation-delay: 4s;
+			bottom: -70px;
+			height: 70px;
+			@extend .borderStyles;
+			left: 0px;
+			width: 3px;
+		}
+	}
+
+	&:hover {
+		box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+		transform: scale(1.5, 1.5);
+		transition: all 0.5s;
+
+		span {
+			animation-play-state: paused;
+		}
+	}
+}
+
+@keyframes outline-1 {
+	0% {
+		left: -200px;
+	}
+
+	100% {
+		left: 200px;
+	}
+}
+
+@keyframes outline-2 {
+	0% {
+		top: -70px;
+	}
+
+	100% {
+		top: 70px;
+	}
+}
+
+@keyframes outline-3 {
+	0% {
+		right: -200px;
+	}
+
+	100% {
+		right: 200px;
+	}
+}
+
+@keyframes outline-4 {
+	0% {
+		bottom: -70px;
+	}
+
+	100% {
+		bottom: 70px;
+	}
+}
