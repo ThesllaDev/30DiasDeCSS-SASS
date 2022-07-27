@@ -54,6 +54,7 @@
 * [Dia 02 - Loaders animados](#id02) ✔️
 * [Dia 03 - Letreiro com mudança de cor de texto](#id03) ✔️
 * [Dia 04 - Botões com efeito de borda, hover e click](#id04) ✔️
+* [Dia 05 - Joias do infinito com efeito de pulsar](#id05) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -82,6 +83,11 @@
 **[Veja o funcionando](https://codepen.io/theslladev/full/MWVEaQw) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2004) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6957743039490453504-S_aJ)**
 
 ---
+
+##  Desafio dia 05 - Joias do infinito com efeito de pulsar <a name="id05"></a>
+<a href="https://codepen.io/theslladev/full/WNzZLob" >![Dia 05](./assets/img/demo-challenge-05.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/WNzZLob) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2005) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6958135089142620161-IXDJ)**
 
 ### 📝 Licença
 
