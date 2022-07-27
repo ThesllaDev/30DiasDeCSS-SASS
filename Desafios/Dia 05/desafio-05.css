@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: url("img/space.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.jewels {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+}
+.jewels > div {
+  border: 5px solid rgba(71, 71, 71, 0.13);
+  border-radius: 50%;
+  height: 130px;
+  margin: 30px 60px;
+  width: 90px;
+}
+.jewels--reality {
+  -webkit-animation: pulse-reality 2s infinite alternate;
+          animation: pulse-reality 2s infinite alternate;
+  background: radial-gradient(#fdbfbf, #da0202, #a50101);
+  box-shadow: 9px 7px 100px 20px #a10101;
+}
+.jewels--soul {
+  -webkit-animation: pulse-soul 2s infinite alternate;
+          animation: pulse-soul 2s infinite alternate;
+  background: radial-gradient(#fadebc, #eb8100, #c76e01);
+  box-shadow: 9px 7px 100px 20px #ac5f01;
+}
+.jewels--mind {
+  -webkit-animation: pulse-mind 2s infinite alternate;
+          animation: pulse-mind 2s infinite alternate;
+  background: radial-gradient(#fafccb, #f0f803, #cad100);
+  box-shadow: 9px 7px 100px 20px #9fa500;
+}
+.jewels--time {
+  -webkit-animation: pulse-time 2s infinite alternate;
+          animation: pulse-time 2s infinite alternate;
+  background: radial-gradient(#d9fdd2, #2cf304, #24d101);
+  box-shadow: 9px 7px 100px 20px #1fb401;
+}
+.jewels--space {
+  -webkit-animation: pulse-space 2s infinite alternate;
+          animation: pulse-space 2s infinite alternate;
+  background: radial-gradient(#9bf6ff, #0161fd, #0051d3);
+  box-shadow: 9px 7px 100px 20px #0141a8;
+}
+.jewels--power {
+  -webkit-animation: pulse-power 2s infinite alternate;
+          animation: pulse-power 2s infinite alternate;
+  background: radial-gradient(#d5cefa, #7a00ec, #6601c5);
+  box-shadow: 9px 7px 100px 20px #5f01b8;
+}
+
+@-webkit-keyframes pulse-reality {
+  to {
+    box-shadow: 0 0 7px 60px rgba(161, 1, 1, 0.3);
+  }
+  from {
+    background: radial-gradient(#e2b2b2, #ce0404, #9b0404);
+    box-shadow: 0 0 0 10px rgba(161, 1, 1, 0.9);
+  }
+}
+
+@keyframes pulse-reality {
+  to {
+    box-shadow: 0 0 7px 60px rgba(161, 1, 1, 0.3);
+  }
+  from {
+    background: radial-gradient(#e2b2b2, #ce0404, #9b0404);
+    box-shadow: 0 0 0 10px rgba(161, 1, 1, 0.9);
+  }
+}
+@-webkit-keyframes pulse-soul {
+  to {
+    box-shadow: 0 0 7px 60px rgba(172, 95, 1, 0.3);
+  }
+  from {
+    background: radial-gradient(#e2ccb0, #e07d04, #b86703);
+    box-shadow: 0 0 0 10px rgba(172, 95, 1, 0.9);
+  }
+}
+@keyframes pulse-soul {
+  to {
+    box-shadow: 0 0 7px 60px rgba(172, 95, 1, 0.3);
+  }
+  from {
+    background: radial-gradient(#e2ccb0, #e07d04, #b86703);
+    box-shadow: 0 0 0 10px rgba(172, 95, 1, 0.9);
+  }
+}
+@-webkit-keyframes pulse-mind {
+  to {
+    box-shadow: 0 0 7px 60px rgba(159, 165, 0, 0.3);
+  }
+  from {
+    background: radial-gradient(#e6e7bf, #e3eb06, #bbc204);
+    box-shadow: 0 0 0 10px rgba(159, 165, 0, 0.9);
+  }
+}
+@keyframes pulse-mind {
+  to {
+    box-shadow: 0 0 7px 60px rgba(159, 165, 0, 0.3);
+  }
+  from {
+    background: radial-gradient(#e6e7bf, #e3eb06, #bbc204);
+    box-shadow: 0 0 0 10px rgba(159, 165, 0, 0.9);
+  }
+}
+@-webkit-keyframes pulse-time {
+  to {
+    box-shadow: 0 0 7px 60px rgba(31, 180, 1, 0.3);
+  }
+  from {
+    background: radial-gradient(#cbe7c5, #2de707, #24c204);
+    box-shadow: 0 0 0 10px rgba(31, 180, 1, 0.9);
+  }
+}
+@keyframes pulse-time {
+  to {
+    box-shadow: 0 0 7px 60px rgba(31, 180, 1, 0.3);
+  }
+  from {
+    background: radial-gradient(#cbe7c5, #2de707, #24c204);
+    box-shadow: 0 0 0 10px rgba(31, 180, 1, 0.9);
+  }
+}
+@-webkit-keyframes pulse-space {
+  to {
+    box-shadow: 0 0 7px 60px rgba(1, 65, 168, 0.3);
+  }
+  from {
+    background: radial-gradient(#95e5ec, #0660f0, #0550c9);
+    box-shadow: 0 0 0 10px rgba(1, 65, 168, 0.9);
+  }
+}
+@keyframes pulse-space {
+  to {
+    box-shadow: 0 0 7px 60px rgba(1, 65, 168, 0.3);
+  }
+  from {
+    background: radial-gradient(#95e5ec, #0660f0, #0550c9);
+    box-shadow: 0 0 0 10px rgba(1, 65, 168, 0.9);
+  }
+}
+@-webkit-keyframes pulse-power {
+  to {
+    box-shadow: 0 0 7px 60px rgba(96, 1, 184, 0.3);
+  }
+  from {
+    background: radial-gradient(#bebada, #7b06e7, #6807c2);
+    box-shadow: 0 0 0 10px rgba(96, 1, 184, 0.9);
+  }
+}
+@keyframes pulse-power {
+  to {
+    box-shadow: 0 0 7px 60px rgba(96, 1, 184, 0.3);
+  }
+  from {
+    background: radial-gradient(#bebada, #7b06e7, #6807c2);
+    box-shadow: 0 0 0 10px rgba(96, 1, 184, 0.9);
+  }
+}
