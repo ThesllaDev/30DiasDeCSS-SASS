@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-image: url("img/matrix.gif");
+  font-family: "JetBrains Mono", Arial, Helvetica, sans-serif, monospace;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #1eb301;
+  font-size: 4em;
+  letter-spacing: -10px;
+  padding: 20px;
+}
+h1 strong {
+  -webkit-animation: shiny 3s linear infinite;
+          animation: shiny 3s linear infinite;
+}
+h1 strong:nth-child(5), h1 strong:nth-child(11) {
+  margin-right: 50px;
+}
+h1 strong:nth-child(17) {
+  opacity: 0;
+}
+h1 strong:nth-of-type(1) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+h1 strong:nth-of-type(2) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+h1 strong:nth-of-type(3) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+h1 strong:nth-of-type(4) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+h1 strong:nth-of-type(5) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+h1 strong:nth-of-type(6) {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+h1 strong:nth-of-type(7) {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+h1 strong:nth-of-type(8) {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+h1 strong:nth-of-type(9) {
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+}
+h1 strong:nth-of-type(10) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+h1 strong:nth-of-type(11) {
+  -webkit-animation-delay: 3.3s;
+          animation-delay: 3.3s;
+}
+h1 strong:nth-of-type(12) {
+  -webkit-animation-delay: 3.6s;
+          animation-delay: 3.6s;
+}
+h1 strong:nth-of-type(13) {
+  -webkit-animation-delay: 3.9s;
+          animation-delay: 3.9s;
+}
+h1 strong:nth-of-type(14) {
+  -webkit-animation-delay: 4.2s;
+          animation-delay: 4.2s;
+}
+h1 strong:nth-of-type(15) {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+h1 strong:nth-of-type(16) {
+  -webkit-animation-delay: 4.8s;
+          animation-delay: 4.8s;
+}
+h1 strong:nth-of-type(17) {
+  -webkit-animation-delay: 5.1s;
+          animation-delay: 5.1s;
+}
+
+@-webkit-keyframes shiny {
+  0%, 80% {
+    text-shadow: none;
+  }
+  100% {
+    color: #2bff00;
+    opacity: 1;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 160px #fff;
+  }
+}
+
+@keyframes shiny {
+  0%, 80% {
+    text-shadow: none;
+  }
+  100% {
+    color: #2bff00;
+    opacity: 1;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 160px #fff;
+  }
+}

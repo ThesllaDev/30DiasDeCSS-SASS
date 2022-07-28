@@ -1,0 +1,54 @@
+@use "../../assets/styles/base/reset";
+
+body {
+	background-image: url("img/matrix.gif");
+	font-family: "JetBrains Mono", Arial, Helvetica, sans-serif, monospace;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+h1 {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #1eb301;
+	font-size: 4em;
+	letter-spacing: -10px;
+	padding: 20px;
+
+	strong {
+		animation: shiny 3s linear infinite;
+
+		&:nth-child(5),
+		&:nth-child(11) {
+			margin-right: 50px;
+		}
+
+		&:nth-child(17) {
+			opacity: 0;
+		}
+	}
+
+	@for $i from 1 through 17 {
+		strong:nth-of-type(#{$i}) {
+			animation-delay: $i * 0.3s;
+		}
+	}
+}
+
+@keyframes shiny {
+	0%,
+	80% {
+		text-shadow: none;
+	}
+
+	100% {
+		color: #2bff00;
+		opacity: 1;
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+			0 0 120px #fff, 0 0 160px #fff;
+	}
+}
