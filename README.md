@@ -55,6 +55,7 @@
 * [Dia 03 - Letreiro com mudança de cor de texto](#id03) ✔️
 * [Dia 04 - Botões com efeito de borda, hover e click](#id04) ✔️
 * [Dia 05 - Joias do infinito com efeito de pulsar](#id05) ✔️
+* [Dia 06 - Efeito de animação do texto brilhando](#id06) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -88,6 +89,15 @@
 <a href="https://codepen.io/theslladev/full/WNzZLob" >![Dia 05](./assets/img/demo-challenge-05.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/WNzZLob) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2005) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6958135089142620161-IXDJ)**
+
+---
+
+##  Desafio dia 06 - Efeito de animação do texto brilhando <a name="id06"></a>
+<a href="https://codepen.io/theslladev/full/WNzXRmW" >![Dia 06](./assets/img/demo-challenge-06.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/WNzXRmW) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2006) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6958489059958640640-AXZM)**
+
+---
 
 ### 📝 Licença
 
