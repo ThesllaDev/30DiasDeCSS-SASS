@@ -1,0 +1,46 @@
+@use "../../assets/styles/base/reset";
+
+body {
+	align-items: center;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.loader {
+	border-radius: 50%;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	transform: rotate(175deg);
+	width: 250px;
+
+	span {
+		animation: wave 1s alternate ease-in-out infinite;
+		animation-delay: calc(-0.1s * var(--i));
+
+		border: 10px solid #0b0b0b {
+			top: 10px solid #0f0;
+			left: 10px solid #0f0;
+			radius: 50%;
+		}
+
+		bottom: calc(12px * var(--i));
+		filter: hue-rotate(calc(60deg * var(--i)));
+		position: absolute;
+		left: calc(12px * var(--i));
+		right: calc(12px * var(--i));
+		top: calc(12px * var(--i));
+	}
+}
+
+@keyframes wave {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(90deg);
+	}
+}
