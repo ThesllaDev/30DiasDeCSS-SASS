@@ -57,6 +57,7 @@
 * [Dia 04 - Botões com efeito de borda, hover e click](#id04) ✔️
 * [Dia 05 - Joias do infinito com efeito de pulsar](#id05) ✔️
 * [Dia 06 - Efeito de animação do texto brilhando](#id06) ✔️
+* [Dia 07 - Preloader com efeito de ondulação](#id07) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -97,6 +98,13 @@
 <a href="https://codepen.io/theslladev/full/WNzXRmW" >![Dia 06](./assets/img/demo-challenge-06.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/WNzXRmW) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2006) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6958489059958640640-AXZM)**
+
+---
+
+##  Desafio dia 07 - Preloader com efeito de ondulação <a name="id07"></a>
+<a href="https://codepen.io/theslladev/full/VwXrRjj" >![Dia 07](./assets/img/demo-challenge-07.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/VwXrRjj) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2007) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6958905224619024384-Rj4z)**
 
 ---
 
