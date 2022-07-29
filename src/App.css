@@ -15,6 +15,7 @@ html {
 
 body {
   background-color: #ededed;
+  font-family: "Fira Code", monospace, "Open Sans", sans-serif;
 }
 
 a:focus,
