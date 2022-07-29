@@ -47,6 +47,7 @@
 - Arquivos SASS parciais (São arquivos que devem ser importados mas não compilados)
 - Aninhamento de seletores e propriedades CSS (São úteis para combinar seletores e propriedades CSS)
 - `@extend` (Permite estender um conjunto de propriedades CSS de um seletor para outro)
+- Uso do loop `@for` (Útil quando combinado com pseudo-seletores `:nth-*` do CSS)
 
 ### Índice dos desafios: 📋
 
