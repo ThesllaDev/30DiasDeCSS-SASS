@@ -20,21 +20,21 @@
 		top: 0;
 		transform: rotate(calc(18deg * var(--i)));
 		width: 100%;
-	}
 
-	span::before {
-		animation: blink 2s linear infinite;
-		animation-delay: calc(0.1s * var(--i));
-		background-color: #00ff0a;
-		border-radius: 50%;
-		box-shadow: 0 0 10px #00ff0a, 0 0 20px #00ff0a, 0 0 40px #00ff0a,
-			0 0 60px #00ff0a, 0 0 80px #00ff0a, 0 0 100px #00ff0a;
-		content: "";
-		height: 15px;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 15px;
+		&::before {
+			animation: blink 2s linear infinite;
+			animation-delay: calc(0.1s * var(--i));
+			background-color: #00ff0a;
+			border-radius: 50%;
+			box-shadow: 0 0 10px #00ff0a, 0 0 20px #00ff0a, 0 0 40px #00ff0a,
+				0 0 60px #00ff0a, 0 0 80px #00ff0a, 0 0 100px #00ff0a;
+			content: "";
+			height: 15px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 15px;
+		}
 	}
 }
 

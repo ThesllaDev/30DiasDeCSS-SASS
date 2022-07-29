@@ -16,6 +16,7 @@ body {
 	position: relative;
 
 	li {
+		background-color: #222;
 		height: 60px;
 		margin: 25px;
 		position: relative;
@@ -73,26 +74,13 @@ body {
 			z-index: 1000;
 		}
 
-		&:hover span:nth-child(5) {
-			opacity: 1;
-			transform: translate(40px, -40px);
+		@for $i from 1 through 5 {
+			&:hover span:nth-child(#{$i}) {
+				opacity: 0.2 * $i;
+				transform: translate($i * 10px, -#{$i * 10px});
+			}
 		}
-		&:hover span:nth-child(4) {
-			opacity: 0.8;
-			transform: translate(30px, -30px);
-		}
-		&:hover span:nth-child(3) {
-			opacity: 0.6;
-			transform: translate(20px, -20px);
-		}
-		&:hover span:nth-child(2) {
-			opacity: 0.4;
-			transform: translate(10px, -10px);
-		}
-		&:hover span:nth-child(1) {
-			opacity: 0.2;
-			transform: translate(0px, 0px);
-		}
+
 		&:nth-child(1) span {
 			background-color: colors.$color-linkedin;
 		}

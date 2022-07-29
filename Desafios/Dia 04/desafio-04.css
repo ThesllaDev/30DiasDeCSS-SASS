@@ -42,7 +42,7 @@ ul {
   stroke-dashoffset: 0;
 }
 
-.borderStyles, .button-02 span:nth-child(4), .button-02 span:nth-child(3), .button-02 span:nth-child(2), .button-02 span:nth-child(1) {
+.button-02 span:nth-child(4), .button-02 span:nth-child(3), .button-02 span:nth-child(2), .button-02 span:nth-child(1) {
   background: linear-gradient(to right, rgba(0, 0, 0, 0), #ffdd00);
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
@@ -75,36 +75,44 @@ ul {
           animation: outline-1 2s linear infinite;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
-  height: 3px;
-  left: -200px;
-  top: 0px;
-  width: 200px;
 }
 .button-02 span:nth-child(2) {
   -webkit-animation: outline-2 2s linear infinite;
           animation: outline-2 2s linear infinite;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
-  height: 70px;
-  right: 0px;
-  top: -70px;
-  width: 3px;
 }
 .button-02 span:nth-child(3) {
   -webkit-animation: outline-3 2s linear infinite;
           animation: outline-3 2s linear infinite;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
-  bottom: 0px;
-  height: 3px;
-  right: -200px;
-  width: 200px;
 }
 .button-02 span:nth-child(4) {
   -webkit-animation: outline-4 2s linear infinite;
           animation: outline-4 2s linear infinite;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
+}
+.button-02 span:nth-child(1) {
+  height: 3px;
+  left: -200px;
+  top: 0px;
+  width: 200px;
+}
+.button-02 span:nth-child(2) {
+  height: 70px;
+  right: 0px;
+  top: -70px;
+  width: 3px;
+}
+.button-02 span:nth-child(3) {
+  bottom: 0px;
+  height: 3px;
+  right: -200px;
+  width: 200px;
+}
+.button-02 span:nth-child(4) {
   bottom: -70px;
   height: 70px;
   left: 0px;
