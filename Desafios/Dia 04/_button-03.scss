@@ -1,55 +1,59 @@
+%background-green {
+	background: #165e00;
+}
+
 .button-03 {
-    align-items: center;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    box-shadow: #e3e3e3 5px 5px;
-    cursor: pointer;
-    display: flex;
-    font-family: 'Cinzel', serif;
-    font-size: 20px;
-    height: 50px;
-    justify-content: center;
-    position: relative;
-    width: 150px;
-    z-index: 0;
+	align-items: center;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	box-shadow: #e3e3e3 5px 5px;
+	cursor: pointer;
+	display: flex;
+	font-family: "Cinzel", serif;
+	font-size: 20px;
+	height: 50px;
+	justify-content: center;
+	position: relative;
+	width: 150px;
+	z-index: 0;
 
-    &::before,
-    &::after {
-        background: #165E00;
-        content: '';
-        position: absolute;
-        transition: 1s;
-        z-index: -1;
-    }
+	&::before,
+	&::after {
+		@extend %background-green;
+		content: "";
+		position: absolute;
+		transition: 1s;
+		z-index: -1;
+	}
 
-    &::before {
-        height: 50px;
-        width: 130px;
-    }
+	&::before {
+		height: 50px;
+		width: 130px;
+	}
 
-    &::after {
-        width: 150px;
-        height: 30px;
-    }
+	&::after {
+		width: 150px;
+		height: 30px;
+	}
 
-    &:hover::before {
-        background: #165E00;
-        width: 0px;
-    }
+	&:hover::before {
+		@extend %background-green;
+		width: 0px;
+	}
 
-    &:hover::after {
-        background: #165E00;
-        height: 0px;
-    }
+	&:hover::after {
+		@extend %background-green;
+		height: 0px;
+	}
 
-    &:hover {
-        background: #165E00;
-        box-shadow: #a1a1a1 3px 3px;
-        transform: translate(3px, 3px);
-    }
+	&:hover {
+		@extend %background-green;
+		box-shadow: #a1a1a1 3px 3px;
+		transform: translate(3px, 3px);
+	}
 
-    &:active {
-        box-shadow: #a1a1a1 1px 1px;
-        transform: translate(10px, 10px);
-    }
+	&:active {
+		box-shadow: #a1a1a1 1px 1px;
+		transform: translate(10px, 10px);
+	}
 }

@@ -193,6 +193,10 @@ ul {
     bottom: 70px;
   }
 }
+.button-03:hover, .button-03:hover::after, .button-03:hover::before, .button-03::before, .button-03::after {
+  background: #165e00;
+}
+
 .button-03 {
   align-items: center;
   border: 2px solid #fff;
@@ -209,7 +213,6 @@ ul {
   z-index: 0;
 }
 .button-03::before, .button-03::after {
-  background: #165E00;
   content: "";
   position: absolute;
   transition: 1s;
@@ -224,15 +227,12 @@ ul {
   height: 30px;
 }
 .button-03:hover::before {
-  background: #165E00;
   width: 0px;
 }
 .button-03:hover::after {
-  background: #165E00;
   height: 0px;
 }
 .button-03:hover {
-  background: #165E00;
   box-shadow: #a1a1a1 3px 3px;
   transform: translate(3px, 3px);
 }
