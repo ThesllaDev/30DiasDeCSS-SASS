@@ -1,9 +1,10 @@
 import "./App.css";
+import { NavBar } from "./assets/components/layout/NavBar";
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Website Project #30DiasDeCSS</h1>
+			<NavBar />
 		</div>
 	);
 }
