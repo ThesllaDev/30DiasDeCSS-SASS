@@ -1,0 +1,127 @@
+@use "../../assets/styles/base/reset";
+@use "../../assets/styles/base/mixins" as mix;
+
+%indicator-pulse {
+	animation: glow 1s linear infinite;
+	background-color: #f00;
+	border-radius: 50%;
+	content: "";
+	filter: blur(2px);
+	@include mix.sizer(10px);
+	position: absolute;
+}
+
+body {
+	background: url("img/map-world.png");
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.radar {
+	background: url("img/map-radar.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	border: 20px solid #f7f7f7;
+	box-shadow: 0 8px 0 #c5c5c5, inset 0 0 100px rgba(0, 255, 0, 0.5);
+	@include mix.sizer(480px);
+	left: 50%;
+	overflow: hidden;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+
+	&::before {
+		@extend %indicator-pulse;
+		left: 69%;
+		top: 63%;
+	}
+
+	&::after {
+		@extend %indicator-pulse;
+		left: 45%;
+		top: 28%;
+	}
+
+	li {
+		background-color: rgba(0, 255, 0, 1);
+		height: 1px;
+		position: absolute;
+		left: 1%;
+		top: 50%;
+		width: 100%;
+
+		&:nth-child(1) {
+			transform: rotate(90deg);
+		}
+
+		&:nth-child(2) {
+			transform: rotate(180deg);
+		}
+
+		&:nth-child(3) {
+			transform: rotate(45deg);
+		}
+
+		&:nth-child(4) {
+			transform: rotate(-45deg);
+		}
+
+		&:nth-child(5),
+		&:nth-child(6),
+		&:nth-child(7) {
+			background: transparent;
+			border-radius: 50%;
+			border: 1px solid rgba(0, 255, 0, 1);
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			top: 50%;
+		}
+
+		&:nth-child(5) {
+			@include mix.sizer(120px);
+		}
+
+		&:nth-child(6) {
+			@include mix.sizer(240px);
+		}
+
+		&:nth-child(7) {
+			@include mix.sizer(360px);
+		}
+
+		&:nth-child(8) {
+			animation: radar 2s linear infinite;
+			background: linear-gradient(45deg, #0f0 0%, transparent 50%);
+			@include mix.sizer(250px);
+			left: 50%;
+			position: absolute;
+			top: 50%;
+			transform-origin: top left;
+		}
+	}
+}
+
+@keyframes radar {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes glow {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}

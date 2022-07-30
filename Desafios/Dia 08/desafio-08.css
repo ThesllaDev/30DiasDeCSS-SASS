@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.radar::after, .radar::before {
+  -webkit-animation: glow 1s linear infinite;
+          animation: glow 1s linear infinite;
+  background-color: #f00;
+  border-radius: 50%;
+  content: "";
+  filter: blur(2px);
+  height: 10px;
+  width: 10px;
+  position: absolute;
+}
+
+body {
+  background: url("img/map-world.png");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.radar {
+  background: url("img/map-radar.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  border: 20px solid #f7f7f7;
+  box-shadow: 0 8px 0 #c5c5c5, inset 0 0 100px rgba(0, 255, 0, 0.5);
+  height: 480px;
+  width: 480px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+.radar::before {
+  left: 69%;
+  top: 63%;
+}
+.radar::after {
+  left: 45%;
+  top: 28%;
+}
+.radar li {
+  background-color: rgb(0, 255, 0);
+  height: 1px;
+  position: absolute;
+  left: 1%;
+  top: 50%;
+  width: 100%;
+}
+.radar li:nth-child(1) {
+  transform: rotate(90deg);
+}
+.radar li:nth-child(2) {
+  transform: rotate(180deg);
+}
+.radar li:nth-child(3) {
+  transform: rotate(45deg);
+}
+.radar li:nth-child(4) {
+  transform: rotate(-45deg);
+}
+.radar li:nth-child(5), .radar li:nth-child(6), .radar li:nth-child(7) {
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 255, 0);
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+.radar li:nth-child(5) {
+  height: 120px;
+  width: 120px;
+}
+.radar li:nth-child(6) {
+  height: 240px;
+  width: 240px;
+}
+.radar li:nth-child(7) {
+  height: 360px;
+  width: 360px;
+}
+.radar li:nth-child(8) {
+  -webkit-animation: radar 2s linear infinite;
+          animation: radar 2s linear infinite;
+  background: linear-gradient(45deg, #0f0 0%, transparent 50%);
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform-origin: top left;
+}
+
+@-webkit-keyframes radar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes radar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes glow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes glow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
