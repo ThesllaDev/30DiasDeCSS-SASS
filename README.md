@@ -48,6 +48,7 @@
 - Aninhamento de seletores e propriedades CSS (São úteis para combinar seletores e propriedades CSS)
 - `@extend` (Permite estender um conjunto de propriedades CSS de um seletor para outro)
 - Uso do loop `@for` (Útil quando combinado com pseudo-seletores `:nth-*` do CSS)
+- `@mixins` (Os mixins são parecido com a funcionalidade "@extend", porém os mixins funcionam e tem sua sintaxe semelhante com funções em JavaScript e aceitam parâmetros para tornar seu código mais flexível)
 
 ### Índice dos desafios: 📋
 
@@ -58,6 +59,7 @@
 * [Dia 05 - Joias do infinito com efeito de pulsar](#id05) ✔️
 * [Dia 06 - Efeito de animação do texto brilhando](#id06) ✔️
 * [Dia 07 - Preloader com efeito de ondulação](#id07) ✔️
+* [Dia 08 - Radar animado](#id08) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -105,6 +107,13 @@
 <a href="https://codepen.io/theslladev/full/VwXrRjj" >![Dia 07](./assets/img/demo-challenge-07.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/VwXrRjj) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2007) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6958905224619024384-Rj4z)**
+
+---
+
+##  Desafio dia 08 - Radar animado <a name="id08"></a>
+<a href="https://codepen.io/theslladev/full/VwXyevr" >![Dia 08](./assets/img/demo-challenge-08.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/VwXyevr) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2008) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6959195756800950272-vYXr)**
 
 ---
 
