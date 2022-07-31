@@ -1,0 +1,89 @@
+@use "../../assets/styles/base/reset";
+@use "../../assets/styles/base/mixins" as mix;
+
+body {
+	background-color: #5a189a;
+	min-height: 100vh;
+}
+
+.pendulo {
+	border: {
+		bottom: 40px solid #531f00;
+		left: 2px solid #000;
+		right: 2px solid #000;
+		top: 4px solid #000;
+		top-left-radius: 30px;
+		top-right-radius: 30px;
+	}
+
+	display: flex;
+	left: 50%;
+	position: absolute;
+	padding: 0 40px 20px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+	span {
+		background-color: #e5e5e5;
+		display: block;
+		height: 100px;
+		margin: 0 13px;
+		position: relative;
+		transform-origin: top;
+		width: 2px;
+
+		&::before {
+			background: #e5e5e5;
+			border-radius: 50%;
+			bottom: 0;
+			content: "";
+			@include mix.sizer(30px);
+			left: -14px;
+			position: absolute;
+		}
+
+		&:first-child {
+			animation: left-moviment 1s linear infinite;
+		}
+
+		&:last-child {
+			animation: right-moviment 1s linear infinite 0.5s;
+		}
+	}
+}
+
+@keyframes left-moviment {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	25% {
+		transform: rotate(60deg);
+	}
+
+	50% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes right-moviment {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	25% {
+		transform: rotate(-60deg);
+	}
+
+	50% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
