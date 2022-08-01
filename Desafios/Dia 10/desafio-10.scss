@@ -1,0 +1,61 @@
+@use "../../assets/styles/base/reset";
+
+body {
+	align-items: center;
+	background-color: #888;
+	display: flex;
+	font-family: "Press Start 2P", cursive;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 3.75rem;
+}
+
+span::before {
+	animation: change-emoji 10s linear infinite;
+	content: "";
+}
+
+@keyframes change-emoji {
+	0% {
+		content: "🍕";
+	}
+
+	10% {
+		content: "💻";
+	}
+
+	20% {
+		content: "🏀";
+	}
+
+	30% {
+		content: "🎨";
+	}
+
+	40% {
+		content: "📚";
+	}
+
+	50% {
+		content: "🍻";
+	}
+
+	60% {
+		content: "🐶";
+	}
+
+	70% {
+		content: "🎵";
+	}
+
+	80% {
+		content: "🛹";
+	}
+
+	100% {
+		content: "🎮";
+	}
+}

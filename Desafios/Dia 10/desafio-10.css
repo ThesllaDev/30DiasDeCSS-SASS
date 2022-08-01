@@ -1,0 +1,95 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  align-items: center;
+  background-color: #888;
+  display: flex;
+  font-family: "Press Start 2P", cursive;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
+span::before {
+  -webkit-animation: change-emoji 10s linear infinite;
+          animation: change-emoji 10s linear infinite;
+  content: "";
+}
+
+@-webkit-keyframes change-emoji {
+  0% {
+    content: "🍕";
+  }
+  10% {
+    content: "💻";
+  }
+  20% {
+    content: "🏀";
+  }
+  30% {
+    content: "🎨";
+  }
+  40% {
+    content: "📚";
+  }
+  50% {
+    content: "🍻";
+  }
+  60% {
+    content: "🐶";
+  }
+  70% {
+    content: "🎵";
+  }
+  80% {
+    content: "🛹";
+  }
+  100% {
+    content: "🎮";
+  }
+}
+
+@keyframes change-emoji {
+  0% {
+    content: "🍕";
+  }
+  10% {
+    content: "💻";
+  }
+  20% {
+    content: "🏀";
+  }
+  30% {
+    content: "🎨";
+  }
+  40% {
+    content: "📚";
+  }
+  50% {
+    content: "🍻";
+  }
+  60% {
+    content: "🐶";
+  }
+  70% {
+    content: "🎵";
+  }
+  80% {
+    content: "🛹";
+  }
+  100% {
+    content: "🎮";
+  }
+}
