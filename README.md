@@ -129,7 +129,7 @@
 ##  Desafio dia 10 - Animação de troca de emojis <a name="id10"></a>
 <a href="https://codepen.io/theslladev/full/ZExvdLq" >![Dia 10](./assets/img/demo-challenge-10.gif)</a>
 
-**[Veja o funcionando](https://codepen.io/theslladev/full/ZExvdLq) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2010) | [Post LinkedIn](https://www.linkedin.com/feedhttps://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6959903974023925760-_zrL)**
+**[Veja o funcionando](https://codepen.io/theslladev/full/ZExvdLq) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2010) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6959903974023925760-_zrL)**
 
 ---
 
