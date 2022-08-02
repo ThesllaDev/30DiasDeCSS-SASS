@@ -49,6 +49,7 @@
 - `@extend` (Permite estender um conjunto de propriedades CSS de um seletor para outro)
 - Uso do loop `@for` (Útil quando combinado com pseudo-seletores `:nth-*` do CSS)
 - `@mixins` (Os mixins são parecido com a funcionalidade "@extend", porém os mixins funcionam e tem sua sintaxe semelhante com funções em JavaScript e aceitam parâmetros para tornar seu código mais flexível)
+- Loop `@each` (faz um loop sobre cada item em uma lista(semelhante a um array em JavaScript) ou mapa(semelhante a um objeto em JavaScript))
 
 ### Índice dos desafios: 📋
 
@@ -62,6 +63,7 @@
 * [Dia 08 - Radar animado](#id08) ✔️
 * [Dia 09 - O pêndulo de Newton](#id09) ✔️
 * [Dia 10 - Animação de troca de emojis](#id10) ✔️
+* [Dia 11 - Botões de ícone com efeito hover ](#id11) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -130,6 +132,13 @@
 <a href="https://codepen.io/theslladev/full/ZExvdLq" >![Dia 10](./assets/img/demo-challenge-10.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/ZExvdLq) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2010) | [Post LinkedIn](https://www.linkedin.com/feedhttps://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-css-activity-6959903974023925760-_zrL)**
+
+---
+
+##  Desafio dia 11 - Botões de ícone com efeito hover  <a name="id11"></a>
+<a href="https://codepen.io/theslladev/full/LYdQQpd" >![Dia 11](./assets/img/demo-challenge-11.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/LYdQQpd) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2011) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6960270022845870080-4noz)**
 
 ---
 
