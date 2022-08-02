@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  align-items: center;
+  background-color: #727272;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button li {
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+.button li:hover {
+  width: 200px;
+}
+.button li .icon {
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  height: 60px;
+  text-align: center;
+  width: 60px;
+}
+.button li:hover .icon {
+  background: #fff;
+}
+.button li .icon i {
+  font-size: 25px;
+  line-height: 60px;
+}
+.button li strong {
+  color: #161616;
+  font-size: 1.3em;
+  line-height: 60px;
+  margin-left: 10px;
+}
+.button--github .icon {
+  background-color: #181717;
+}
+.button--github:hover .icon {
+  color: #181717;
+}
+.button--linkedin .icon {
+  background-color: #0a66c2;
+}
+.button--linkedin:hover .icon {
+  color: #0a66c2;
+}
+.button--codepen .icon {
+  background-color: #000000;
+}
+.button--codepen:hover .icon {
+  color: #000000;
+}
+.button--gmail .icon {
+  background-color: #ea4335;
+}
+.button--gmail:hover .icon {
+  color: #ea4335;
+}
+.button--medium .icon {
+  background-color: #000000;
+}
+.button--medium:hover .icon {
+  color: #000000;
+}
+.button--whatsapp .icon {
+  background-color: #25d366;
+}
+.button--whatsapp:hover .icon {
+  color: #25d366;
+}

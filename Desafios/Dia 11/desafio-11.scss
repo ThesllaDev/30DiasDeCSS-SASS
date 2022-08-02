@@ -1,0 +1,77 @@
+@use "../../assets/styles/base/colorVariables" as var;
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+
+$colors-midia-social: (
+	github: var.$color-github,
+	linkedin: var.$color-linkedin,
+	codepen: var.$color-codepen,
+	gmail: var.$color-google,
+	medium: var.$color-medium,
+	whatsapp: var.$color-whatsapp,
+);
+
+body {
+	align-items: center;
+	background-color: #727272;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.button {
+	li {
+		background-color: #fff;
+		border-radius: 50px;
+		box-shadow: 0 10px 6px rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+		@include mix.sizer(60px);
+		margin: 10px;
+		overflow: hidden;
+		transition: all 0.3s ease-out;
+
+		&:hover {
+			width: 200px;
+		}
+
+		.icon {
+			border-radius: 50px;
+			color: #fff;
+			display: inline-block;
+			height: 60px;
+			text-align: center;
+			width: 60px;
+		}
+
+		&:hover .icon {
+			background: #fff;
+		}
+
+		.icon i {
+			font-size: 25px;
+			line-height: 60px;
+		}
+
+		strong {
+			color: #161616;
+			font-size: 1.3em;
+			line-height: 60px;
+			margin-left: 10px;
+		}
+	}
+
+	@each $key, $color in $colors-midia-social {
+		&--#{$key} .icon {
+			background-color: $color;
+		}
+
+		&--#{$key}:hover .icon {
+			color: $color;
+		}
+	}
+}
