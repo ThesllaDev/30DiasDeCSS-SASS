@@ -64,6 +64,7 @@
 * [Dia 09 - O pêndulo de Newton](#id09) ✔️
 * [Dia 10 - Animação de troca de emojis](#id10) ✔️
 * [Dia 11 - Botões de ícone com efeito hover ](#id11) ✔️
+* [Dia 12 - Animação de preenchimento ao passar o mouse ](#id12) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -139,6 +140,13 @@
 <a href="https://codepen.io/theslladev/full/LYdQQpd" >![Dia 11](./assets/img/demo-challenge-11.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/LYdQQpd) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2011) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6960270022845870080-4noz)**
+
+---
+
+##  Desafio dia 12 - Animação de preenchimento ao passar o mouse  <a name="id12"></a>
+<a href="https://codepen.io/theslladev/full/vYRRLym" >![Dia 12](./assets/img/demo-challenge-12.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/vYRRLym) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2012) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6960621683950956544-rLul)**
 
 ---
 
