@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  align-items: center;
+  background-color: #727272;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cup {
+  background-image: url("img/coffee.png");
+  background-position: 190px 120px;
+  background-repeat: repeat-x;
+  border: 6px solid #727272;
+  border-radius: 30%;
+  border-top: 2px solid transparent;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: 0 0 0 6px #fff, 0 20px 35px rgb(0, 0, 0);
+  cursor: pointer;
+  height: 180px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+}
+.cup::before {
+  border: 6px solid #fff;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+  content: "";
+  height: 80px;
+  position: absolute;
+  right: -68px;
+  top: 30px;
+  width: 50px;
+}
+.cup:hover {
+  -webkit-animation: fluid 10s linear infinite;
+          animation: fluid 10s linear infinite;
+}
+
+@-webkit-keyframes fluid {
+  0% {
+    background-position: 80px 100px;
+  }
+  10% {
+    background-position: 160px 100px;
+  }
+  40% {
+    background-position: 1000px 60px;
+  }
+  80% {
+    background-position: 2000px 30px;
+  }
+  100% {
+    background-position: 2500px 10px;
+  }
+}
+
+@keyframes fluid {
+  0% {
+    background-position: 80px 100px;
+  }
+  10% {
+    background-position: 160px 100px;
+  }
+  40% {
+    background-position: 1000px 60px;
+  }
+  80% {
+    background-position: 2000px 30px;
+  }
+  100% {
+    background-position: 2500px 10px;
+  }
+}
