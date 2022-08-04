@@ -65,6 +65,7 @@
 * [Dia 10 - Animação de troca de emojis](#id10) ✔️
 * [Dia 11 - Botões de ícone com efeito hover ](#id11) ✔️
 * [Dia 12 - Animação de preenchimento ao passar o mouse ](#id12) ✔️
+* [Dia 13 - Placeholders loadings](#id13) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -147,6 +148,13 @@
 <a href="https://codepen.io/theslladev/full/vYRRLym" >![Dia 12](./assets/img/demo-challenge-12.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/vYRRLym) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2012) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6960621683950956544-rLul)**
+
+---
+
+##  Desafio dia 13 - Placeholders loading  <a name="id13"></a>
+<a href="https://codepen.io/theslladev/full/ExEEOdr" >![Dia 13](./assets/img/demo-challenge-13.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/ExEEOdr) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2013) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6960989789688868864-Jeqd)**
 
 ---
 
