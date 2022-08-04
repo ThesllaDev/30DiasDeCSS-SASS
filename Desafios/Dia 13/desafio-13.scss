@@ -1,0 +1,121 @@
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+
+$color-cultured-gray: #eee;
+$color-light-gray: #d6d6d6;
+$color-silver: #c5c5c5;
+
+%standards-placeholders {
+	background-color: $color-cultured-gray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+}
+
+body {
+	align-items: center;
+	background-color: skyblue;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.placeholder-vertical {
+	@extend %standards-placeholders;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+	width: 250px;
+
+	&::before {
+		animation: is-passing 0.9s ease-in infinite;
+		background: linear-gradient(to right, transparent, #fff 50%, transparent);
+		content: "";
+		display: block;
+		height: 50vh;
+		position: absolute;
+		width: 50vw;
+	}
+
+	.cover {
+		background-color: $color-light-gray;
+		height: 100px;
+		width: 100%;
+	}
+
+	.content {
+		align-items: center;
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		width: 100%;
+
+		.avatar {
+			background-color: $color-silver;
+			border-radius: 50%;
+			@include mix.sizer(170px);
+			margin: -45px auto 10px;
+		}
+	}
+}
+
+.placeholder-horizontal {
+	animation: fade-in 0.6s ease-in alternate infinite;
+	@extend %standards-placeholders;
+	height: 250px;
+	width: 550px;
+
+	.profile {
+		display: flex;
+
+		.avatar {
+			background-color: $color-silver;
+			border-radius: 50%;
+			@include mix.sizer(90px);
+			margin: 30px;
+		}
+
+		.info {
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			margin-left: 30px;
+		}
+	}
+}
+
+.text-placeholder {
+	background-color: $color-light-gray;
+	display: inline-block;
+	height: 9px;
+	margin: 10px;
+	width: 50%;
+
+	&:nth-of-type(2) {
+		width: 60%;
+	}
+
+	&:nth-of-type(3) {
+		width: 30%;
+	}
+}
+
+@keyframes is-passing {
+	from {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes fade-in {
+	to {
+		opacity: 0.36;
+	}
+}

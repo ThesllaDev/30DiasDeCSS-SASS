@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.placeholder-horizontal, .placeholder-vertical {
+  background-color: #eee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+body {
+  align-items: center;
+  background-color: skyblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.placeholder-vertical {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  width: 250px;
+}
+.placeholder-vertical::before {
+  -webkit-animation: is-passing 0.9s ease-in infinite;
+          animation: is-passing 0.9s ease-in infinite;
+  background: linear-gradient(to right, transparent, #fff 50%, transparent);
+  content: "";
+  display: block;
+  height: 50vh;
+  position: absolute;
+  width: 50vw;
+}
+.placeholder-vertical .cover {
+  background-color: #d6d6d6;
+  height: 100px;
+  width: 100%;
+}
+.placeholder-vertical .content {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+}
+.placeholder-vertical .content .avatar {
+  background-color: #c5c5c5;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  margin: -45px auto 10px;
+}
+
+.placeholder-horizontal {
+  -webkit-animation: fade-in 0.6s ease-in alternate infinite;
+          animation: fade-in 0.6s ease-in alternate infinite;
+  height: 250px;
+  width: 550px;
+}
+.placeholder-horizontal .profile {
+  display: flex;
+}
+.placeholder-horizontal .profile .avatar {
+  background-color: #c5c5c5;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin: 30px;
+}
+.placeholder-horizontal .profile .info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.placeholder-horizontal .profile .content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.text-placeholder {
+  background-color: #d6d6d6;
+  display: inline-block;
+  height: 9px;
+  margin: 10px;
+  width: 50%;
+}
+.text-placeholder:nth-of-type(2) {
+  width: 60%;
+}
+.text-placeholder:nth-of-type(3) {
+  width: 30%;
+}
+
+@-webkit-keyframes is-passing {
+  from {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes is-passing {
+  from {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes fade-in {
+  to {
+    opacity: 0.36;
+  }
+}
+@keyframes fade-in {
+  to {
+    opacity: 0.36;
+  }
+}
