@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  align-items: center;
+  background-color: #430b86;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  -webkit-animation: parallax 10s linear infinite;
+          animation: parallax 10s linear infinite;
+  background-image: url("img/space.png");
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-size: 600px;
+  font-size: min(17em, 34vw);
+  line-height: 1.5;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px #000;
+}
+
+@-webkit-keyframes parallax {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 500px -1000px;
+  }
+}
+
+@keyframes parallax {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 500px -1000px;
+  }
+}
