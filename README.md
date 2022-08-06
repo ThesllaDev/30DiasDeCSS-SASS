@@ -67,6 +67,7 @@
 * [Dia 12 - Animação de preenchimento ao passar o mouse ](#id12) ✔️
 * [Dia 13 - Placeholders loadings](#id13) ✔️
 * [Dia 14 - Fundo de texto animado com efeito parallax](#id14) ✔️
+* [Dia 15 - Animação de texto esfumaçado](#id15) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -163,6 +164,13 @@
 <a href="https://codepen.io/theslladev/full/bGvMgdV" >![Dia 14](./assets/img/demo-challenge-14.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/bGvMgdV) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2014) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6961329487904952320--fa-/)**
+
+---
+
+##  Desafio dia 15 - Animação de texto esfumaçado <a name="id15"></a>
+<a href="https://codepen.io/theslladev/full/OJvZBBq" >![Dia 15](./assets/img/demo-challenge-15.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/OJvZBBq) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2015) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6961739051137683456-zdSf)**
 
 ---
 
