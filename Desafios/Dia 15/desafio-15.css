@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  align-items: center;
+  background-image: url("img/white-walkers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: "Solway", "Arial", "Helvetica", sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container ul:hover li {
+  -webkit-animation: smoky 2.5s linear forwards;
+          animation: smoky 2.5s linear forwards;
+  cursor: none;
+}
+.container ul li {
+  color: #fff;
+  filter: blur(1px);
+  font-size: 6rem;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.container ul li:nth-of-type(7), .container ul li:nth-of-type(9) {
+  margin-left: 30px;
+}
+.container ul li:nth-of-type(1) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.container ul li:nth-of-type(2) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.container ul li:nth-of-type(3) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.container ul li:nth-of-type(4) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.container ul li:nth-of-type(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.container ul li:nth-of-type(6) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.container ul li:nth-of-type(7) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.container ul li:nth-of-type(8) {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+.container ul li:nth-of-type(9) {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+.container ul li:nth-of-type(10) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.container ul li:nth-of-type(11) {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+.container ul li:nth-of-type(12) {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+@-webkit-keyframes smoky {
+  0% {
+    transform: rotate(0deg) translateY(0px);
+  }
+  100% {
+    filter: blur(20px);
+    opacity: 0;
+    transform: rotate(45deg) translateY(-200px);
+  }
+}
+
+@keyframes smoky {
+  0% {
+    transform: rotate(0deg) translateY(0px);
+  }
+  100% {
+    filter: blur(20px);
+    opacity: 0;
+    transform: rotate(45deg) translateY(-200px);
+  }
+}

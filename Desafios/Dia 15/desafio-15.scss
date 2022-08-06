@@ -1,0 +1,57 @@
+@use "../../assets/styles/base/reset";
+
+.container {
+	align-items: center;
+
+	background: {
+		image: url("img/white-walkers.jpg");
+		size: cover;
+		repeat: no-repeat;
+	}
+
+	display: flex;
+	font-family: "Solway", "Arial", "Helvetica", sans-serif;
+	height: 100vh;
+	justify-content: center;
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+
+		&:hover li {
+			animation: smoky 2.5s linear forwards;
+			cursor: none;
+		}
+
+		li {
+			color: #fff;
+			filter: blur(1px);
+			font-size: 6rem;
+			font-weight: bold;
+			letter-spacing: 10px;
+
+			&:nth-of-type(7),
+			&:nth-of-type(9) {
+				margin-left: 30px;
+			}
+		}
+
+		@for $i from 1 through 12 {
+			li:nth-of-type(#{$i}) {
+				animation-delay: $i * 0.2s;
+			}
+		}
+	}
+}
+
+@keyframes smoky {
+	0% {
+		transform: rotate(0deg) translateY(0px);
+	}
+
+	100% {
+		filter: blur(20px);
+		opacity: 0;
+		transform: rotate(45deg) translateY(-200px);
+	}
+}
