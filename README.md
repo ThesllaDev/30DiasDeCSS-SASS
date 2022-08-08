@@ -69,6 +69,7 @@
 * [Dia 14 - Fundo de texto animado com efeito parallax](#id14) ✔️
 * [Dia 15 - Animação de texto esfumaçado](#id15) ✔️
 * [Dia 16 - Botão com efeito de pressionamento de tecla](#id16) ✔️
+* [Dia 17 - Animação de bateria carregando](#id17) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -179,6 +180,13 @@
 <a href="https://codepen.io/theslladev/full/abYKzKo" >![Dia 16](./assets/img/demo-challenge-16.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/abYKzKo) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2016) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6962090231613263872-zVDt)**
+
+---
+
+##  Desafio dia 17 - Animação de bateria carregando <a name="id17"></a>
+<a href="https://codepen.io/theslladev/full/xxWzWPj" >![Dia 17](./assets/img/demo-challenge-17.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/xxWzWPj) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2017) | [Post LinkedIn](https://www.linkedin.com/feedhttps://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6962455430623080449-EP5P)**
 
 ---
 
