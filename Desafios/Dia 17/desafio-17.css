@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  align-items: center;
+  background: #0e141a;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+}
+body h1 {
+  color: #09ff00;
+  text-align: center;
+  width: 100%;
+}
+
+.battery__container {
+  height: 12rem;
+  margin: 0 auto;
+  position: relative;
+  width: 6rem;
+}
+.battery__container::before {
+  border-radius: 4px 4px 0 0;
+  height: 1.3rem;
+  left: 20px;
+  margin: 0 auto;
+  width: 50%;
+}
+.battery__container--body, .battery__container:before {
+  border: solid 4px rgb(74, 74, 74);
+}
+.battery__container:after, .battery__container:before, .battery__container--load:before, .battery__container--load:after {
+  content: "";
+  position: absolute;
+}
+.battery__container--body {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  border-radius: 4px;
+  height: 100%;
+  margin-top: 25px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.battery__container--load {
+  -webkit-animation: loading 3s ease-in infinite forwards;
+          animation: loading 3s ease-in infinite forwards;
+  background: #09ff00;
+  bottom: 0;
+  height: 1rem;
+  position: absolute;
+  width: 100%;
+}
+.battery__container--load::before, .battery__container--load::after {
+  background: #09ff00;
+  border-radius: 50%;
+  height: 0;
+  top: 0;
+}
+.battery__container--load::before {
+  -webkit-animation: bounce-1 2s linear infinite;
+          animation: bounce-1 2s linear infinite;
+  left: 0;
+}
+.battery__container--load::after {
+  -webkit-animation: bounce-1 2s -0.1s linear infinite;
+          animation: bounce-1 2s -0.1s linear infinite;
+  right: 0;
+}
+
+@-webkit-keyframes loading {
+  0%, 100% {
+    height: 1rem;
+  }
+  70% {
+    height: 5rem;
+  }
+  90%, 95% {
+    height: 14rem;
+  }
+}
+
+@keyframes loading {
+  0%, 100% {
+    height: 1rem;
+  }
+  70% {
+    height: 5rem;
+  }
+  90%, 95% {
+    height: 14rem;
+  }
+}
+@-webkit-keyframes bounce-1 {
+  14%, 16%, 65% {
+    height: 20px;
+    transform: translateY(-8px);
+  }
+  40%, 60% {
+    height: 0px;
+    transform: translateY(0px);
+  }
+  50% {
+    height: 25px;
+    transform: translateY(-13px);
+  }
+}
+@keyframes bounce-1 {
+  14%, 16%, 65% {
+    height: 20px;
+    transform: translateY(-8px);
+  }
+  40%, 60% {
+    height: 0px;
+    transform: translateY(0px);
+  }
+  50% {
+    height: 25px;
+    transform: translateY(-13px);
+  }
+}
