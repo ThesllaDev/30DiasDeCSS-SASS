@@ -186,7 +186,7 @@
 ##  Desafio dia 17 - Animação de bateria carregando <a name="id17"></a>
 <a href="https://codepen.io/theslladev/full/xxWzWPj" >![Dia 17](./assets/img/demo-challenge-17.gif)</a>
 
-**[Veja o funcionando](https://codepen.io/theslladev/full/xxWzWPj) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2017) | [Post LinkedIn](https://www.linkedin.com/feedhttps://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6962455430623080449-EP5P)**
+**[Veja o funcionando](https://codepen.io/theslladev/full/xxWzWPj) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2017) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6962455430623080449-EP5P)**
 
 ---
 
