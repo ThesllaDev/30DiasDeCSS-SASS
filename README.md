@@ -70,6 +70,7 @@
 * [Dia 15 - Animação de texto esfumaçado](#id15) ✔️
 * [Dia 16 - Botão com efeito de pressionamento de tecla](#id16) ✔️
 * [Dia 17 - Animação de bateria carregando](#id17) ✔️
+* [Dia 18 - Texto flutuante e imersivo](#id18) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -187,6 +188,13 @@
 <a href="https://codepen.io/theslladev/full/xxWzWPj" >![Dia 17](./assets/img/demo-challenge-17.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/xxWzWPj) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2017) | [Post LinkedIn](https://www.linkedin.com/feedhttps://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6962455430623080449-EP5P)**
+
+---
+
+##  Desafio dia 18 - Texto flutuante e imersivo <a name="id18"></a>
+<a href="https://codepen.io/theslladev/full/XWEBppM" >![Dia 18](./assets/img/demo-challenge-18.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/XWEBppM) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2018) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6962880450407104512-s1BC?utm_source=linkedin_share&utm_medium=member_desktop_web)**
 
 ---
 
