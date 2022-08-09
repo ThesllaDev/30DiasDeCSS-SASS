@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  align-items: center;
+  background: #3f81b3 url("img/ocean.jpg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1 {
+  color: #f5f5f5;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: calc(10px + 10vw);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  perspective: 500px;
+  position: relative;
+  text-transform: uppercase;
+}
+h1::before, h1::after {
+  content: attr(aria-label);
+  left: 0;
+  position: absolute;
+  text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+h1::before {
+  -webkit-animation: floatAbove 3.5s ease-in-out infinite;
+          animation: floatAbove 3.5s ease-in-out infinite;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
+}
+h1::after {
+  -webkit-animation: floatBelow 3.5s ease-in-out infinite;
+          animation: floatBelow 3.5s ease-in-out infinite;
+  -webkit-clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  filter: blur(0.02em);
+  opacity: 0.65;
+  transform: translate(-50%, -50%) rotateX(21deg);
+}
+
+@-webkit-keyframes floatAbove {
+  50% {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
+    transform: translate(-50%, -60%);
+  }
+}
+
+@keyframes floatAbove {
+  50% {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
+    transform: translate(-50%, -60%);
+  }
+}
+@-webkit-keyframes floatBelow {
+  50% {
+    -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
+    transform: translate(-50%, -60%) rotateX(10deg);
+  }
+}
+@keyframes floatBelow {
+  50% {
+    -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
+    transform: translate(-50%, -60%) rotateX(10deg);
+  }
+}
