@@ -1,0 +1,106 @@
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+
+body {
+	background-color: #000;
+	height: 100vh;
+	@include mix.flex-center();
+	overflow: hidden;
+	width: 100%;
+}
+
+.glowing {
+	animation: colorChange 5s linear infinite;
+	height: 750px;
+	position: relative;
+	margin: -150px;
+	min-width: 700px;
+	transform-origin: right;
+
+	span {
+		bottom: calc(80px * var(--i));
+		left: calc(80px * var(--i));
+		position: absolute;
+		right: calc(80px * var(--i));
+		top: calc(80px * var(--i));
+
+		&::before {
+			background-color: #f00;
+			border-radius: 50%;
+			content: "";
+			@include mix.sizer(50px);
+			position: absolute;
+			left: -8px;
+			top: 50%;
+		}
+
+		&:nth-child(3n + 1) {
+			animation: rotation 10s alternate infinite;
+
+			&::before {
+				background-color: rgba(134, 255, 0, 1);
+				box-shadow: 0 0 20px rgba(134, 255, 0, 1), 0 0 40px rgba(134, 255, 0, 1),
+					0 0 60px rgba(134, 255, 0, 1), 0 0 80px rgba(134, 255, 0, 1),
+					0 0 8px rgba(134, 255, 0, 0.1);
+			}
+		}
+
+		&:nth-child(3n + 2) {
+			animation: rotationReverse 3s alternate infinite;
+
+			&::before {
+				background-color: rgba(255, 214, 0, 1);
+				box-shadow: 0 0 20px rgba(255, 214, 0, 1), 0 0 40px rgba(255, 214, 0, 1),
+					0 0 60px rgba(255, 214, 0, 1), 0 0 80px rgba(255, 214, 0, 1),
+					0 0 8px rgba(255, 214, 0, 0.1);
+			}
+		}
+
+		&:nth-child(3n + 3) {
+			animation: rotationReverse 9s alternate infinite;
+
+			&::before {
+				background-color: rgba(0, 226, 255, 1);
+				box-shadow: 0 0 20px rgba(0, 226, 255, 1), 0 0 40px rgba(0, 226, 255, 1),
+					0 0 60px rgba(0, 226, 255, 1), 0 0 80px rgba(0, 226, 255, 1),
+					0 0 8px rgba(0, 226, 255, 0.1);
+			}
+		}
+	}
+
+	&:nth-child(even) {
+		transform-origin: left;
+	}
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotationReverse {
+	0% {
+		transform: rotate(360deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes colorChange {
+	0% {
+		filter: hue-rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		filter: hue-rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
