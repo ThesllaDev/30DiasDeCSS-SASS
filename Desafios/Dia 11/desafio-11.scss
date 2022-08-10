@@ -1,14 +1,15 @@
-@use "../../assets/styles/base/colorVariables" as var;
+@use "../../assets/styles/base/colorVariables" as colors;
 @use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
+@use "sass:map";
 
 $colors-midia-social: (
-	github: var.$color-github,
-	linkedin: var.$color-linkedin,
-	codepen: var.$color-codepen,
-	gmail: var.$color-google,
-	medium: var.$color-medium,
-	whatsapp: var.$color-whatsapp,
+	github: map.get(colors.$midia-socials-colors, "github"),
+	linkedin: map.get(colors.$midia-socials-colors, "linkedin"),
+	codepen: map.get(colors.$midia-socials-colors, "codepen"),
+	gmail: map.get(colors.$midia-socials-colors, "google"),
+	medium: map.get(colors.$midia-socials-colors, "medium"),
+	whatsapp: map.get(colors.$midia-socials-colors, "whatsapp"),
 );
 
 body {

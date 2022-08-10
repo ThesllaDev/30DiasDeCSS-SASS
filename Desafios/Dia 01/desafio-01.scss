@@ -53,9 +53,8 @@ body {
 
 			span {
 				align-items: center;
-				background-color: #333;
 				color: rgba(255, 255, 255, 0.7);
-				display: flex !important;
+				display: flex;
 				font-size: 30px;
 				height: 100%;
 				justify-content: center;
@@ -80,33 +79,11 @@ body {
 				transform: translate($i * 10px, -#{$i * 10px});
 			}
 		}
+	}
 
-		&:nth-child(1) span {
-			background-color: colors.$color-linkedin;
-		}
-		&:nth-child(2) span {
-			background-color: colors.$color-github;
-		}
-		&:nth-child(3) span {
-			background-color: colors.$color-google;
-		}
-		&:nth-child(4) span {
-			background-color: colors.$color-medium;
-		}
-		&:nth-child(5) span {
-			background-color: colors.$color-whatsapp;
-		}
-		&:nth-child(6) span {
-			background-color: colors.$color-codepen;
-		}
-		&:nth-child(7) span {
-			background-color: colors.$color-instagram;
-		}
-		&:nth-child(8) span {
-			background-color: colors.$color-discord;
-		}
-		&:nth-child(9) span {
-			background-color: colors.$color-twitter;
+	@each $key, $colors in colors.$midia-socials-colors {
+		&__item--#{$key} span {
+			background-color: $colors;
 		}
 	}
 }

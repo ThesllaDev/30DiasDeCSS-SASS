@@ -1,10 +1,12 @@
 // Midia Socials Colors
-$color-codepen: #000000;
-$color-discord: #5865f2;
-$color-github: #181717;
-$color-google: #ea4335;
-$color-instagram: #e4405f;
-$color-linkedin: #0a66c2;
-$color-medium: #000000;
-$color-twitter: #1da1f2;
-$color-whatsapp: #25d366;
+$midia-socials-colors: (
+	codepen: #000000,
+	discord: #5865f2,
+	github: #181717,
+	google: #ea4335,
+	instagram: #e4405f,
+	linkedin: #0a66c2,
+	medium: #000000,
+	twitter: #1da1f2,
+	whatsapp: #25d366,
+);

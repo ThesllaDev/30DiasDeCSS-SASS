@@ -58,9 +58,8 @@ body {
 }
 .list-of-midia-socials li a span {
   align-items: center;
-  background-color: #333;
   color: rgba(255, 255, 255, 0.7);
-  display: flex !important;
+  display: flex;
   font-size: 30px;
   height: 100%;
   justify-content: center;
@@ -96,30 +95,30 @@ body {
   opacity: 1;
   transform: translate(50px, -50px);
 }
-.list-of-midia-socials li:nth-child(1) span {
-  background-color: #0a66c2;
-}
-.list-of-midia-socials li:nth-child(2) span {
-  background-color: #181717;
-}
-.list-of-midia-socials li:nth-child(3) span {
-  background-color: #ea4335;
-}
-.list-of-midia-socials li:nth-child(4) span {
+.list-of-midia-socials__item--codepen span {
   background-color: #000000;
 }
-.list-of-midia-socials li:nth-child(5) span {
-  background-color: #25d366;
-}
-.list-of-midia-socials li:nth-child(6) span {
-  background-color: #000000;
-}
-.list-of-midia-socials li:nth-child(7) span {
-  background-color: #e4405f;
-}
-.list-of-midia-socials li:nth-child(8) span {
+.list-of-midia-socials__item--discord span {
   background-color: #5865f2;
 }
-.list-of-midia-socials li:nth-child(9) span {
+.list-of-midia-socials__item--github span {
+  background-color: #181717;
+}
+.list-of-midia-socials__item--google span {
+  background-color: #ea4335;
+}
+.list-of-midia-socials__item--instagram span {
+  background-color: #e4405f;
+}
+.list-of-midia-socials__item--linkedin span {
+  background-color: #0a66c2;
+}
+.list-of-midia-socials__item--medium span {
+  background-color: #000000;
+}
+.list-of-midia-socials__item--twitter span {
   background-color: #1da1f2;
+}
+.list-of-midia-socials__item--whatsapp span {
+  background-color: #25d366;
 }
