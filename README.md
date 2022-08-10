@@ -71,6 +71,7 @@
 * [Dia 16 - Botão com efeito de pressionamento de tecla](#id16) ✔️
 * [Dia 17 - Animação de bateria carregando](#id17) ✔️
 * [Dia 18 - Texto flutuante e imersivo](#id18) ✔️
+* [Dia 19 - Animação partículas de fundo](#id19) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -194,7 +195,14 @@
 ##  Desafio dia 18 - Texto flutuante e imersivo <a name="id18"></a>
 <a href="https://codepen.io/theslladev/full/XWEBppM" >![Dia 18](./assets/img/demo-challenge-18.gif)</a>
 
-**[Veja o funcionando](https://codepen.io/theslladev/full/XWEBppM) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2018) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6962880450407104512-s1BC?utm_source=linkedin_share&utm_medium=member_desktop_web)**
+**[Veja o funcionando](https://codepen.io/theslladev/full/XWEBppM) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2018) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6962880450407104512-s1BC)**
+
+---
+
+##  Desafio dia 19 - Animação partículas de fundo <a name="id19"></a>
+<a href="https://codepen.io/theslladev/full/Yzajgye" >![Dia 19](./assets/img/demo-challenge-19.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/Yzajgye) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2019) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6963205644262756352-M3-N)**
 
 ---
 
