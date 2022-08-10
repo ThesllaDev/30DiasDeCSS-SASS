@@ -9,7 +9,7 @@ ul {
 }
 
 .button-01 {
-  color: #FF0000;
+  color: #ff0000;
   font-size: 24px;
   height: 60px;
   line-height: 60px;
@@ -19,23 +19,23 @@ ul {
 .button-01 svg {
   fill: transparent;
   height: 100%;
+  width: 100%;
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%;
 }
 .button-01 rect {
   fill: transparent;
   height: 100%;
+  width: 100%;
   left: 0;
   position: absolute;
-  stroke: #FF0000;
+  stroke: #ff0000;
   stroke-dasharray: 100, 400;
   stroke-dashoffset: 217;
   stroke-width: 4;
   top: 0;
   transition: 1s;
-  width: 100%;
 }
 .button-01:hover svg rect {
   stroke-dasharray: 500, 500;

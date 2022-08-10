@@ -10,10 +10,11 @@ ul {
 }
 
 body {
-  align-items: center;
   background-color: #888;
-  display: flex;
   font-family: "Press Start 2P", cursive;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   min-height: 100vh;
 }

@@ -17,10 +17,11 @@ ul {
 }
 
 body {
-  align-items: center;
   background-color: skyblue;
-  display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   min-height: 100vh;
 }

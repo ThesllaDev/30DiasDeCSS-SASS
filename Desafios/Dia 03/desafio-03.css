@@ -12,10 +12,10 @@ section {
   background-color: #9b0abf;
   background: linear-gradient(to right, #9b0abf, #3664d0);
   border: 2em dotted #fa5e1f;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   position: absolute;
-  width: 100vw;
 }
 section .wrapper {
   background-color: #9b0abf;

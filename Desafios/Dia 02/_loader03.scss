@@ -1,8 +1,9 @@
+@use "../../assets/styles/base/mixins" as mix;
+
 .loader__03 {
 	display: inline-block;
-	height: 80px;
+	@include mix.sizer(80px);
 	position: relative;
-	width: 80px;
 
 	div {
 		animation: spin-03 1s linear infinite;

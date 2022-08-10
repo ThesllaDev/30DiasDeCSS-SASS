@@ -9,13 +9,14 @@ ul {
 }
 
 .container {
-  align-items: center;
   background-image: url("img/white-walkers.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
   font-family: "Solway", "Arial", "Helvetica", sans-serif;
   height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 .container ul {

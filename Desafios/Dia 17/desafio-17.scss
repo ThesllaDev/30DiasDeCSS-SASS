@@ -1,12 +1,11 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 body {
-	align-items: center;
 	background: #0e141a;
-	display: flex;
 	flex-wrap: wrap;
 	height: 100vh;
-	justify-content: center;
+	@include mix.flex-center();
 
 	h1 {
 		color: #09ff00;
@@ -45,11 +44,10 @@ body {
 	&--body {
 		animation-fill-mode: forwards;
 		border-radius: 4px;
-		height: 100%;
+		@include mix.sizer(100%);
 		margin-top: 25px;
 		overflow: hidden;
 		position: relative;
-		width: 100%;
 	}
 
 	&--load {

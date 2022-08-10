@@ -9,11 +9,12 @@ ul {
 }
 
 body {
-  align-items: center;
   background-color: #f3f2ef;
-  display: flex;
   flex-wrap: wrap;
   height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   width: 100vw;
@@ -27,6 +28,7 @@ h1 {
 .switch-field {
   align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   overflow: hidden;
 }

@@ -1,3 +1,5 @@
+@use "../../assets/styles/base/mixins" as mix;
+
 .loader__01 {
 	animation: spin-01 1s linear infinite;
 
@@ -7,8 +9,7 @@
 		radius: 50%;
 	}
 
-	height: 60px;
-	width: 60px;
+	@include mix.sizer(60px);
 }
 
 @keyframes spin-01 {

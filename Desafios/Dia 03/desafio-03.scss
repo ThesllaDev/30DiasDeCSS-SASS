@@ -1,13 +1,13 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 section {
 	background-color: #9b0abf;
 	background: linear-gradient(to right, #9b0abf, #3664d0);
 	border: 2em dotted #fa5e1f;
-	height: 100vh;
+	@include mix.sizer(100%);
 	overflow: hidden;
 	position: absolute;
-	width: 100vw;
 
 	.wrapper {
 		background-color: #9b0abf;

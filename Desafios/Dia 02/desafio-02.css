@@ -32,16 +32,17 @@ ul {
 }
 .loader__02 {
   height: 120px;
-  position: relative;
   width: 120px;
+  position: relative;
 }
 .loader__02 strong {
   align-items: center;
-  color: #fff;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
   font-size: 1.3rem;
   height: 100%;
-  justify-content: center;
   text-transform: uppercase;
 }
 .loader__02 span {
@@ -88,8 +89,8 @@ ul {
 .loader__03 {
   display: inline-block;
   height: 80px;
-  position: relative;
   width: 80px;
+  position: relative;
 }
 .loader__03 div {
   -webkit-animation: spin-03 1s linear infinite;
@@ -186,14 +187,15 @@ ul {
   }
 }
 main {
-  align-items: center;
   -webkit-animation: animate-bg 5s linear infinite;
           animation: animate-bg 5s linear infinite;
   background-color: #1e0421;
-  display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  min-height: 100vh;
 }
 
 main > div {

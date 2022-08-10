@@ -9,11 +9,12 @@ ul {
 }
 
 body {
-  align-items: center;
   background: #3f81b3 url("img/ocean.jpg") no-repeat center;
   background-size: cover;
-  display: flex;
   height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   overflow: hidden;
   text-align: center;

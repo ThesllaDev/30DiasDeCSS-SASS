@@ -1,3 +1,4 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 body {
@@ -8,11 +9,9 @@ body {
 }
 
 .jewels {
-	align-items: center;
-	display: flex;
 	flex-wrap: wrap;
 	height: 100vh;
-	justify-content: center;
+	@include mix.flex-center();
 
 	> div {
 		border: 5px solid rgba(71, 71, 71, 0.13);

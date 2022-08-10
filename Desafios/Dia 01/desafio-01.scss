@@ -1,11 +1,11 @@
 @use "../../assets/styles/base/colorVariables" as colors;
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 body {
 	align-items: center;
 	background-color: #727272;
 	display: flex;
-	justify-content: center;
 	min-height: 100vh;
 }
 
@@ -17,12 +17,11 @@ body {
 
 	li {
 		background-color: #222;
-		height: 60px;
+		@include mix.sizer(60px);
 		margin: 25px;
 		position: relative;
 		transform: rotate(-25deg) skew(25deg);
 		transform-style: preserve-3d;
-		width: 60px;
 
 		&::before {
 			background-color: #222;
@@ -56,13 +55,12 @@ body {
 				color: rgba(255, 255, 255, 0.7);
 				display: flex;
 				font-size: 30px;
-				height: 100%;
+				@include mix.sizer(100%);
 				justify-content: center;
 				left: 0;
 				position: absolute;
 				transition: 0.3s;
 				top: 0;
-				width: 100%;
 			}
 		}
 

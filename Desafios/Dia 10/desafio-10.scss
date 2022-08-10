@@ -1,11 +1,10 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 body {
-	align-items: center;
 	background-color: #888;
-	display: flex;
 	font-family: "Press Start 2P", cursive;
-	justify-content: center;
+	@include mix.flex-center();
 	min-height: 100vh;
 }
 

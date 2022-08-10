@@ -9,11 +9,12 @@ ul {
 }
 
 body {
-  align-items: center;
   background: #0e141a;
-  display: flex;
   flex-wrap: wrap;
   height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 body h1 {
@@ -47,10 +48,10 @@ body h1 {
           animation-fill-mode: forwards;
   border-radius: 4px;
   height: 100%;
+  width: 100%;
   margin-top: 25px;
   overflow: hidden;
   position: relative;
-  width: 100%;
 }
 .battery__container--load {
   -webkit-animation: loading 3s ease-in infinite forwards;

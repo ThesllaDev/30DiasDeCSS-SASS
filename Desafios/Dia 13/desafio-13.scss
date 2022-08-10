@@ -14,11 +14,9 @@ $color-silver: #c5c5c5;
 }
 
 body {
-	align-items: center;
 	background-color: skyblue;
-	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	@include mix.flex-center();
 	min-height: 100vh;
 }
 

@@ -1,20 +1,18 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 body {
-	align-items: center;
 	background-color: #000;
-	display: flex;
-	justify-content: center;
+	@include mix.flex-center();
 	min-height: 100vh;
 }
 
 .loader {
 	border-radius: 50%;
-	height: 250px;
+	@include mix.sizer(250px);
 	overflow: hidden;
 	position: relative;
 	transform: rotate(175deg);
-	width: 250px;
 
 	span {
 		animation: wave 1s alternate ease-in-out infinite;

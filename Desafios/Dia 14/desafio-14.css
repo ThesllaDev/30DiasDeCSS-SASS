@@ -9,9 +9,10 @@ ul {
 }
 
 body {
-  align-items: center;
   background-color: #430b86;
+  align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   min-height: 100vh;
 }

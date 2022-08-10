@@ -9,9 +9,10 @@ ul {
 }
 
 body {
-  align-items: center;
   background-color: #000;
+  align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   min-height: 100vh;
 }
@@ -19,10 +20,10 @@ body {
 .loader {
   border-radius: 50%;
   height: 250px;
+  width: 250px;
   overflow: hidden;
   position: relative;
   transform: rotate(175deg);
-  width: 250px;
 }
 .loader span {
   -webkit-animation: wave 1s alternate ease-in-out infinite;

@@ -1,12 +1,11 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 body {
-	align-items: center;
 	background-color: #f3f2ef;
-	display: flex;
 	flex-wrap: wrap;
 	height: 100vh;
-	justify-content: center;
+	@include mix.flex-center();
 	text-align: center;
 	width: 100vw;
 }
@@ -17,9 +16,7 @@ h1 {
 }
 
 .switch-field {
-	align-items: center;
-	display: flex;
-	justify-content: center;
+	@include mix.flex-center();
 	overflow: hidden;
 
 	input {

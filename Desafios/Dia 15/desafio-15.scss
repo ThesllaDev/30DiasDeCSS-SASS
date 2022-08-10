@@ -1,18 +1,16 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 .container {
-	align-items: center;
-
 	background: {
 		image: url("img/white-walkers.jpg");
 		size: cover;
 		repeat: no-repeat;
 	}
 
-	display: flex;
 	font-family: "Solway", "Arial", "Helvetica", sans-serif;
 	height: 100vh;
-	justify-content: center;
+	@include mix.flex-center();
 
 	ul {
 		display: flex;

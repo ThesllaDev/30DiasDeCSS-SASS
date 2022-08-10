@@ -1,15 +1,14 @@
+@use "../../assets/styles/base/mixins" as mix;
+
 .loader__02 {
-	height: 120px;
+	@include mix.sizer(120px);
 	position: relative;
-	width: 120px;
 
 	strong {
-		align-items: center;
+		@include mix.flex-center();
 		color: #fff;
-		display: flex;
 		font-size: 1.3rem;
 		height: 100%;
-		justify-content: center;
 		text-transform: uppercase;
 	}
 

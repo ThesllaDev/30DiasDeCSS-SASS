@@ -1,3 +1,4 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 body {
@@ -6,9 +7,7 @@ body {
 }
 
 .container {
-	align-items: center;
-	display: flex;
-	justify-content: center;
+	@include mix.flex-center();
 	min-height: 100vh;
 }
 

@@ -1,5 +1,5 @@
-@use "../../assets/styles/base/reset";
 @use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
 
 %indicator-pulse {
 	animation: glow 1s linear infinite;

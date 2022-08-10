@@ -1,10 +1,9 @@
+@use "../../assets/styles/base/mixins" as mix;
 @use "../../assets/styles/base/reset";
 
 body {
-	align-items: center;
 	background-color: #727272;
-	display: flex;
-	justify-content: center;
+	@include mix.flex-center();
 	min-height: 100vh;
 }
 
