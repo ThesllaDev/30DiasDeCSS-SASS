@@ -2,8 +2,11 @@
   border: 1px solid #000;
   color: #000;
   font-weight: bold;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 0.9375rem;
-  margin: 1.875rem;
   text-decoration: none;
   transition: all 0.3s linear;
 }
@@ -11,4 +14,8 @@
   background-color: #e9e9e9;
   border-color: #003;
   color: #003;
+}
+.link-button svg {
+  color: #000;
+  margin-right: 0.9375rem;
 }

@@ -1,9 +1,9 @@
 import "../../styles/components/LinkButton.css";
 
-export const LinkButton = ({ url, text }) => {
+export const LinkButton = ({ url, text, icon }) => {
 	return (
 		<a className="link-button" href={url}>
-			{text}
+			{icon} {text}
 		</a>
 	);
 };
