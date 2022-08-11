@@ -6,18 +6,55 @@ main {
 
 	.about-section {
 		text-align: center;
-		margin: 60px 30px 30px;
+		margin: var.$gap-large var.$gap-medium var.$gap-medium;
 
 		svg {
 			color: var.$blue-primary-color;
 		}
 
 		&__description {
-			margin: 15px auto;
+			margin: var.$gap-small auto;
 		}
 
 		a {
 			font-weight: bold;
+		}
+	}
+
+	.projects-section {
+		@include mix.flex-position(column);
+		padding: var.$gap-medium;
+
+		h2 {
+			margin: 0 var.$gap-medium var.$gap-medium;
+			text-align: center;
+		}
+
+		li {
+			transition: all 0.3s linear;
+
+			&:nth-of-type(even) {
+				background-color: #cdcdcd;
+			}
+
+			&:hover {
+				background-color: #888;
+			}
+
+			& > a {
+				font-weight: bold;
+				color: #0d2dd1;
+				line-height: 1.5;
+				padding: 0 var.$gap-small;
+
+				&:hover {
+					color: #003;
+				}
+			}
+
+			svg {
+				color: #008000;
+			}
 		}
 	}
 }

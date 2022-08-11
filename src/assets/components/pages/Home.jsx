@@ -1,8 +1,8 @@
-import { FaCss3Alt } from "react-icons/fa";
+import { FaCheck, FaCss3Alt } from "react-icons/fa";
 
 import "../../styles/pages/Home.css";
 
-export const Home = () => {
+export const Home = ({ projectsDatas }) => {
 	return (
 		<main>
 			<header id="about" className="about-section">
@@ -24,6 +24,22 @@ export const Home = () => {
 					do projeto
 				</p>
 			</header>
+			<section id="projects" className="projects-section">
+				<h2>Projetos</h2>
+				<nav>
+					<ol>
+						{projectsDatas.map((item) => (
+							<li key={item.id}>
+								<a href={`#Dia-${item.id}`}>
+									{`Dia ${item.id} - ${item.title}`}
+								</a>
+								<FaCheck />
+								<hr />
+							</li>
+						))}
+					</ol>
+				</nav>
+			</section>
 		</main>
 	);
 };
