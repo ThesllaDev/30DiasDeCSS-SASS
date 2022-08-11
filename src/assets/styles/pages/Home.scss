@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+main {
+	@include mix.flex-position(column);
+
+	.about-section {
+		text-align: center;
+		margin: 60px 30px 30px;
+
+		svg {
+			color: var.$blue-primary-color;
+		}
+
+		&__description {
+			margin: 15px auto;
+		}
+
+		a {
+			font-weight: bold;
+		}
+	}
+}
