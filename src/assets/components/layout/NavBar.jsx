@@ -1,6 +1,6 @@
 import "../../styles/layout/NavBar.css";
 
-import { LinkButton } from "../LinkButton";
+import { LinkButton } from "../shared/LinkButton";
 
 export const NavBar = () => {
 	return (

@@ -1,4 +1,4 @@
-import "../styles/components/LinkButton.css";
+import "../../styles/components/LinkButton.css";
 
 export const LinkButton = ({ url, text }) => {
 	return (
