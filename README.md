@@ -72,6 +72,7 @@
 * [Dia 17 - Animação de bateria carregando](#id17) ✔️
 * [Dia 18 - Texto flutuante e imersivo](#id18) ✔️
 * [Dia 19 - Animação partículas de fundo](#id19) ✔️
+* [Dia 20 - Botão com efeito hover de arco-íris](#id20) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -203,6 +204,13 @@
 <a href="https://codepen.io/theslladev/full/Yzajgye" >![Dia 19](./assets/img/demo-challenge-19.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/Yzajgye) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2019) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-html-html5-activity-6963205644262756352-M3-N)**
+
+---
+
+##  Desafio dia 20 - Botão com efeito hover de arco-íris <a name="id20"></a>
+<a href="https://codepen.io/theslladev/full/WNzgOvm" >![Dia 20](./assets/img/demo-challenge-20.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/WNzgOvm) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2020) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6963567814091649024-RhXZ)**
 
 ---
 
