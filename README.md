@@ -73,6 +73,7 @@
 * [Dia 18 - Texto flutuante e imersivo](#id18) ✔️
 * [Dia 19 - Animação partículas de fundo](#id19) ✔️
 * [Dia 20 - Botão com efeito hover de arco-íris](#id20) ✔️
+* [Dia 21 - Gotejamento líquido em slow motion](#id21) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -211,6 +212,13 @@
 <a href="https://codepen.io/theslladev/full/WNzgOvm" >![Dia 20](./assets/img/demo-challenge-20.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/WNzgOvm) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2020) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6963567814091649024-RhXZ)**
+
+---
+
+##  Desafio dia 21 - Gotejamento líquido em slow motion <a name="id21"></a>
+<a href="https://codepen.io/theslladev/full/LYdJKRW" >![Dia 21](./assets/img/demo-challenge-21.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/LYdJKRW) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2021) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6963965486665465856-5zo2)**
 
 ---
 
