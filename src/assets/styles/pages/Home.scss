@@ -23,11 +23,14 @@ main {
 
 	.projects-section {
 		@include mix.flex-position(column);
-		padding: var.$gap-medium;
 
 		h2 {
 			margin: 0 var.$gap-medium var.$gap-medium;
 			text-align: center;
+		}
+
+		ol {
+			margin: var.$gap-medium;
 		}
 
 		li {
@@ -56,5 +59,10 @@ main {
 				color: #008000;
 			}
 		}
+	}
+
+	.projects-container {
+		@include mix.flex-position(row);
+		flex-wrap: wrap;
 	}
 }

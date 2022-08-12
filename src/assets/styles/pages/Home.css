@@ -22,11 +22,13 @@ main .projects-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.875rem;
 }
 main .projects-section h2 {
   margin: 0 1.875rem 1.875rem;
   text-align: center;
+}
+main .projects-section ol {
+  margin: 1.875rem;
 }
 main .projects-section li {
   transition: all 0.3s linear;
@@ -48,4 +50,11 @@ main .projects-section li > a:hover {
 }
 main .projects-section li svg {
   color: #008000;
+}
+main .projects-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }

@@ -2,6 +2,8 @@ import { FaCheck, FaCss3Alt } from "react-icons/fa";
 
 import "../../styles/pages/Home.css";
 
+import { ProjectCard } from "../shared/ProjectCard";
+
 export const Home = ({ projectsDatas }) => {
 	return (
 		<main>
@@ -39,6 +41,17 @@ export const Home = ({ projectsDatas }) => {
 						))}
 					</ol>
 				</nav>
+				<div className="projects-container">
+					{projectsDatas.map((item) => (
+						<ProjectCard
+							key={item.id}
+							id={item.id}
+							banner={item.img}
+							title={item.title}
+							urlDeploy={item.deploy}
+						/>
+					))}
+				</div>
 			</section>
 		</main>
 	);
