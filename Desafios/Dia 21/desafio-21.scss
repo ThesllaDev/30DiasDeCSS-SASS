@@ -1,0 +1,72 @@
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+@use "sass:math";
+
+body {
+	background: linear-gradient(
+		#030455,
+		#03045e,
+		#023e8a,
+		#0077b6,
+		#0096c7,
+		#00b4d8,
+		#48cae4,
+		#90e0ef,
+		#ade8f4,
+		#caf0f8,
+		#cff1f9
+	);
+	border-top: 10vh solid #00b4d8;
+	border-bottom: 10vh solid #00b4d8;
+	filter: url(#goo);
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 100vw;
+}
+
+h1 {
+	color: #fff;
+	font-size: 3.6em;
+	margin: 25vw;
+	position: absolute;
+	width: 50vw;
+}
+
+.particle {
+	animation: fall 15s infinite;
+	background-color: #00b4d8;
+	border-radius: 50%;
+	@include mix.sizer(100px);
+	position: absolute;
+	top: -20%;
+
+	&:nth-of-type(2n) {
+		@include mix.sizer(60px);
+	}
+	&:nth-of-type(3n) {
+		@include mix.sizer(120px);
+	}
+
+	@for $i from 1 through 15 {
+		$randomValue: math.random();
+
+		&:nth-of-type(#{$i}) {
+			animation-delay: #{$i}s;
+			left: math.percentage($randomValue);
+		}
+	}
+}
+
+@keyframes fall {
+	0% {
+		top: -20%;
+	}
+	30% {
+		top: 0%;
+	}
+	100% {
+		top: 100%;
+	}
+}

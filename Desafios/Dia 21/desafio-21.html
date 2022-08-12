@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="desafio-21.css" />
+		<title>
+			Gotejamento líquido em slow motion - Desafio 21/30 de 30 dias de CSS
+		</title>
+	</head>
+
+	<body>
+		<h1>Drink Water!</h1>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<div class="particle"></div>
+		<svg>
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+					<feColorMatrix
+						in="name"
+						mode="matrix"
+						values="1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 30 -15"
+					/>
+					<feBlend in="SourceGraphic" />
+				</filter>
+			</defs>
+		</svg>
+	</body>
+</html>
