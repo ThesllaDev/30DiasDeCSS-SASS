@@ -25,7 +25,10 @@ export const Home = ({ projectsDatas }) => {
 				</p>
 				<p>
 					Para mais informações consulte o{" "}
-					<a href="https://github.com/ThesllaDev/30DiasDeCSS-SASS#-30diasdecss-">
+					<a
+						href="https://github.com/ThesllaDev/30DiasDeCSS-SASS#-30diasdecss-"
+						title="Acesse o arquivo README no repositório do projeto"
+					>
 						README
 					</a>{" "}
 					do projeto
@@ -37,7 +40,10 @@ export const Home = ({ projectsDatas }) => {
 					<ol>
 						{projectsDatas.map((item) => (
 							<li key={item.id}>
-								<a href={`#Dia-${item.id}`}>
+								<a
+									href={`#Dia-${item.id}`}
+									title={`Navegue até o projeto ${item.title}`}
+								>
 									{`Dia ${item.id} - ${item.title}`}
 								</a>
 								<FaCheck />

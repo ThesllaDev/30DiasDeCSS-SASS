@@ -9,10 +9,20 @@ export const NavBar = () => {
 		<nav className="navbar">
 			<ul className="navbar__list">
 				<li className="navbar__item">
-					<LinkButton url="#about" text="Sobre" icon={<FaQuestion />} />
+					<LinkButton
+						url="#about"
+						toolTip="Navegue até a seção sobre o projeto"
+						icon={<FaQuestion />}
+						text="Sobre"
+					/>
 				</li>
 				<li className="navbar__item">
-					<LinkButton url="#projects" text="Projetos" icon={<FaList />} />
+					<LinkButton
+						url="#projects"
+						toolTip="Navegue até a seção dos projeto"
+						icon={<FaList />}
+						text="Projetos"
+					/>
 				</li>
 			</ul>
 		</nav>

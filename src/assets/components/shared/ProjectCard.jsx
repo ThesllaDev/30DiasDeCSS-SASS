@@ -15,9 +15,15 @@ export const ProjectCard = ({ id, title, urlDeploy }) => {
 				<figcaption>{`Dia ${id} - ${title}`}</figcaption>
 			</figure>
 			<div className="project-card__links">
-				<LinkButton url={urlDeploy} text="Demo" icon={<FaWindowMaximize />} />
+				<LinkButton
+					url={urlDeploy}
+					toolTip={`Veja uma demonstração do desafio ${title}`}
+					text="Demo"
+					icon={<FaWindowMaximize />}
+				/>
 				<LinkButton
 					url={`https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%20${id}`}
+					toolTip={`Veja o código utilizado no desafio ${title}`}
 					text="Code"
 					icon={<FaCode />}
 				/>
