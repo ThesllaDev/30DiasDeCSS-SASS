@@ -1,6 +1,7 @@
 import "./App.css";
 
 import { NavBar } from "./assets/components/layout/NavBar";
+import { FooterBar } from "./assets/components/layout/FooterBar";
 
 import { Home } from "./assets/components/pages/Home";
 
@@ -112,6 +113,7 @@ function App() {
 		<div className="App">
 			<NavBar />
 			<Home projectsDatas={PROJECTDATAS} />
+			<FooterBar />
 		</div>
 	);
 }
