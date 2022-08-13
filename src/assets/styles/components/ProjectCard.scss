@@ -1,0 +1,35 @@
+@use "../abstracts/variables" as var;
+
+.project-card {
+	background-color: #73a2c5;
+	border: 1px solid #000;
+	box-shadow: 8px 8px 4px rgba($color: #000000, $alpha: 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 440px;
+	margin: var.$gap-medium;
+	transition: all 0.3s linear;
+	width: 300px;
+
+	&:hover {
+		outline: #000 dotted 3px;
+		transform: scale(1.5, 1.5);
+	}
+
+	img {
+		height: 220px;
+		width: 100%;
+	}
+
+	figcaption {
+		margin: var.$gap-medium var.$gap-medium 0;
+		font-weight: bold;
+	}
+
+	&__links {
+		display: flex;
+		justify-content: space-between;
+		margin: var.$gap-medium;
+	}
+}

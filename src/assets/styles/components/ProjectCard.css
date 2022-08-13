@@ -1,0 +1,29 @@
+.project-card {
+  background-color: #73a2c5;
+  border: 1px solid #000;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 440px;
+  margin: 1.875rem;
+  transition: all 0.3s linear;
+  width: 300px;
+}
+.project-card:hover {
+  outline: #000 dotted 3px;
+  transform: scale(1.5, 1.5);
+}
+.project-card img {
+  height: 220px;
+  width: 100%;
+}
+.project-card figcaption {
+  margin: 1.875rem 1.875rem 0;
+  font-weight: bold;
+}
+.project-card__links {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.875rem;
+}

@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #1572b6;
+  width: 100%;
+}
+.navbar__list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.9375rem;
+}
+.navbar__item {
+  margin: 0.9375rem;
+}
+.navbar .link-button {
+  color: #e9e9e9;
+  border-color: #e9e9e9;
+}

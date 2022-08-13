@@ -1,0 +1,68 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+
+main {
+	@include mix.flex-position(column);
+
+	.about-section {
+		text-align: center;
+		margin: var.$gap-large var.$gap-medium var.$gap-medium;
+
+		svg {
+			color: var.$blue-primary-color;
+		}
+
+		&__description {
+			margin: var.$gap-small auto;
+		}
+
+		a {
+			font-weight: bold;
+		}
+	}
+
+	.projects-section {
+		@include mix.flex-position(column);
+
+		h2 {
+			margin: 0 var.$gap-medium var.$gap-medium;
+			text-align: center;
+		}
+
+		ol {
+			margin: var.$gap-medium;
+		}
+
+		li {
+			transition: all 0.3s linear;
+
+			&:nth-of-type(even) {
+				background-color: #cdcdcd;
+			}
+
+			&:hover {
+				background-color: #888;
+			}
+
+			& > a {
+				font-weight: bold;
+				color: #0d2dd1;
+				line-height: 1.5;
+				padding: 0 var.$gap-small;
+
+				&:hover {
+					color: #003;
+				}
+			}
+
+			svg {
+				color: #008000;
+			}
+		}
+	}
+
+	.projects-container {
+		@include mix.flex-position(row);
+		flex-wrap: wrap;
+	}
+}

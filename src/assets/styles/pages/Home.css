@@ -1,0 +1,60 @@
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .about-section {
+  text-align: center;
+  margin: 3.75rem 1.875rem 1.875rem;
+}
+main .about-section svg {
+  color: #1572b6;
+}
+main .about-section__description {
+  margin: 0.9375rem auto;
+}
+main .about-section a {
+  font-weight: bold;
+}
+main .projects-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .projects-section h2 {
+  margin: 0 1.875rem 1.875rem;
+  text-align: center;
+}
+main .projects-section ol {
+  margin: 1.875rem;
+}
+main .projects-section li {
+  transition: all 0.3s linear;
+}
+main .projects-section li:nth-of-type(even) {
+  background-color: #cdcdcd;
+}
+main .projects-section li:hover {
+  background-color: #888;
+}
+main .projects-section li > a {
+  font-weight: bold;
+  color: #0d2dd1;
+  line-height: 1.5;
+  padding: 0 0.9375rem;
+}
+main .projects-section li > a:hover {
+  color: #003;
+}
+main .projects-section li svg {
+  color: #008000;
+}
+main .projects-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
