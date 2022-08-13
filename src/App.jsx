@@ -106,6 +106,16 @@ const PROJECTDATAS = [
 		title: "Botão com efeito hover de arco-íris",
 		deploy: "https://codepen.io/theslladev/full/WNzgOvm",
 	},
+	{
+		id: "21",
+		title: "Gotejamento líquido em slow motion",
+		deploy: "https://codepen.io/theslladev/full/LYdJKRW",
+	},
+	{
+		id: "22",
+		title: "Ícones de notificação e alertas saltitante",
+		deploy: "https://codepen.io/theslladev/full/OJvBbOg",
+	},
 ];
 
 function App() {
