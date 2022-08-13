@@ -1,0 +1,53 @@
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+
+body {
+	background-color: #f3f2ef;
+	flex-wrap: wrap;
+	height: 100vh;
+	@include mix.flex-center();
+}
+
+.icon-alert,
+.icon-notification {
+	animation: jump 1s infinite;
+	background: #f00;
+	border: solid 3px #232323;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 3.3em;
+	font-weight: bold;
+	margin: 50px 25px;
+	padding: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&:hover {
+		animation: none;
+		background: #fff;
+		border: solid 6px #f00;
+		color: #f00;
+	}
+}
+
+.icon-notification {
+	animation-delay: 0.5s;
+}
+
+@keyframes jump {
+	0% {
+		transform: scale(1, 1) translate(0px, 0px);
+	}
+
+	30% {
+		transform: scale(1, 0.8) translate(0px, 10px);
+	}
+
+	75% {
+		transform: scale(1, 1.1) translate(0px, -60px);
+	}
+
+	100% {
+		transform: scale(1, 1) translate(0px, 0px);
+	}
+}
