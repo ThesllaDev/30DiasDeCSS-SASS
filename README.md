@@ -1,13 +1,13 @@
 ## 📝🎨🚀 30diasDeCSS 🚀🎨📝
 
- 30 dias de CSS3, é um desafio para ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos de animações diariamente, utilizando HTML e CSS (no momento que estou realizando esse projeto também estou aprendendo sobre o SASS que é um pré-processador CSS, então também decidi adicioná-lo ao desafio)
+30 dias de CSS(Cascading Style Sheets), é um desafio para ajudá-lo a melhorar suas  habilidades de codificação fazendo mini projetos de animações diariamente durante 30 dias, utilizando <abbr>HTML</abbr>(HyperText Markup Language) e <abbr title="Cascading Style Sheets">CSS</abbr> (no momento que estou realizando esse projeto também estou aprendendo sobre o <abbr>SASS</abbr>(Syntactically Awesome Style Sheets) que é um pré-processador <abbr title="Cascading Style Sheets">CSS</abbr>, então também decidi adicioná-lo ao desafio)
 
- Créditos a idealizadora do desafio 30 dias de CSS [@MilenaCarecho](https://github.com/MilenaCarecho) ⭐
+ Créditos a idealizadora do desafio 30 dias de <abbr title="Cascading Style Sheets">CSS</abbr> [@MilenaCarecho](https://github.com/MilenaCarecho) ⭐
  Repositório original do desafio: [30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS) ⭐
 
  ## 🎯 Objetivo
 
- 30 dias de CSS é um desafio que vou aceitar (e você também pode participar) a partir de 23 de julho de 2022, que visa melhorar minhas habilidades em HTML5, CSS3 e SASS através da realização de projetos durante 30 dias
+ 30 dias de <abbr title="Cascading Style Sheets">CSS</abbr> é um desafio que vou aceitar (e você também pode participar) a partir de 23 de julho de 2022, que visa melhorar minhas habilidades em <abbr title="HyperText Markup Language">HTML5</abbr>, <abbr title="Cascading Style Sheets">CSS3</abbr> e <abbr title="Syntactically Awesome Style Sheets">SASS</abbr> através da realização de projetos durante 30 dias
 
 ***Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não tem data de início fixa, cada um faz os seus 30 dias e pode personalizar com suas próprias regras, eu ficarei contente com sua participação 😉***
 
@@ -42,12 +42,12 @@
 
 ### Principais tópicos que aprendi durante o processo
 
-- Variáveis SASS (Muito usadas para armazenar informações e reutilizar)
+- Variáveis <abbr title="Syntactically Awesome Style Sheets">SASS</abbr> (Muito usadas para armazenar informações e reutilizar)
 - Módulo `@use` (Para carregar e combinar múltiplas folhas de estilo)
-- Arquivos SASS parciais (São arquivos que devem ser importados mas não compilados)
-- Aninhamento de seletores e propriedades CSS (São úteis para combinar seletores e propriedades CSS)
-- `@extend` (Permite estender um conjunto de propriedades CSS de um seletor para outro)
-- Uso do loop `@for` (Útil quando combinado com pseudo-seletores `:nth-*` do CSS)
+- Arquivos <abbr title="Syntactically Awesome Style Sheets">SASS</abbr> parciais (São arquivos que devem ser importados mas não compilados)
+- Aninhamento de seletores e propriedades <abbr title="Cascading Style Sheets">CSS</abbr> (São úteis para combinar seletores e propriedades <abbr title="Cascading Style Sheets">CSS</abbr>)
+- `@extend` (Permite estender um conjunto de propriedades <abbr title="Cascading Style Sheets">CSS</abbr> de um seletor para outro)
+- Uso do loop `@for` (Útil quando combinado com pseudo-seletores `:nth-*` do <abbr title="Cascading Style Sheets">CSS</abbr>)
 - `@mixins` (Os mixins são parecido com a funcionalidade "@extend", porém os mixins funcionam e tem sua sintaxe semelhante com funções em JavaScript e aceitam parâmetros para tornar seu código mais flexível)
 - Loop `@each` (faz um loop sobre cada item em uma lista(semelhante a um array em JavaScript) ou mapa(semelhante a um objeto em JavaScript))
 
