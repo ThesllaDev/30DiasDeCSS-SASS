@@ -116,6 +116,11 @@ const PROJECTDATAS = [
 		title: "Ícones de notificação e alertas saltitante",
 		deploy: "https://codepen.io/theslladev/full/OJvBbOg",
 	},
+	{
+		id: "23",
+		title: "Botão de download com efeito hover e active",
+		deploy: "https://codepen.io/theslladev/full/xxWyjyJ",
+	},
 ];
 
 function App() {
