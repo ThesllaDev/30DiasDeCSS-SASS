@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-container {
+  height: 50px;
+  margin: 10px;
+  position: relative;
+  width: 220px;
+}
+.btn-container:hover .arrow-container {
+  -webkit-animation: test 1s forwards;
+          animation: test 1s forwards;
+}
+
+.btn-download {
+  background: linear-gradient(to left, #60b842, #7fd13d);
+  border-radius: 10px;
+  box-shadow: 6px 6px 0 #4c9434;
+  color: #fff;
+  float: left;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #4c9434;
+  width: 200px;
+}
+.btn-download:hover {
+  background: linear-gradient(to left, #38db01, #68e602);
+}
+.btn-download:active {
+  box-shadow: 1px 1px 0 #4c9434;
+  transform: translate(5px, 5px);
+}
+
+.arrow-container {
+  height: 20px;
+  margin: 15px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  transition: transform 0.3s ease-out;
+  width: 35px;
+}
+.arrow-container .arrow-rectangle {
+  background-color: #44801c;
+  float: left;
+  height: 10px;
+  margin-top: 5px;
+  transition: transform 0.3s ease-out;
+  width: 15px;
+}
+.arrow-container .arrow-triangle {
+  border-color: transparent transparent transparent #44801c;
+  border-style: solid;
+  border-width: 10px;
+  float: left;
+  height: 0px;
+  transition: transform 0.2s ease-out;
+  width: 0px;
+}
+
+@-webkit-keyframes test {
+  0% {
+    transform: translate(-10px, 7px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-10px, 7px) rotate(90deg);
+  }
+}
+
+@keyframes test {
+  0% {
+    transform: translate(-10px, 7px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-10px, 7px) rotate(90deg);
+  }
+}
