@@ -4,6 +4,13 @@
 
  Créditos a idealizadora do desafio 30 dias de <abbr title="Cascading Style Sheets">CSS</abbr> [@MilenaCarecho](https://github.com/MilenaCarecho) ⭐
  Repositório original do desafio: [30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS) ⭐
+ 
+ ## Website desenvolvido por min com todos os meus desafios: 
+ 🌐 Link do website: https://theslladev.github.io/30DiasDeCSS-SASS/ 
+
+https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-b940-4146c50caf37.mp4
+
+
 
  ## 🎯 Objetivo
 
