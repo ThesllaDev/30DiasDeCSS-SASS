@@ -75,6 +75,7 @@
 * [Dia 20 - Botão com efeito hover de arco-íris](#id20) ✔️
 * [Dia 21 - Gotejamento líquido em slow motion](#id21) ✔️
 * [Dia 22 - Ícones de notificação e alertas saltitante](#id22) ✔️
+* [Dia 23 - Botão de download com efeito hover e active](#id23) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -227,6 +228,13 @@
 <a href="https://codepen.io/theslladev/full/OJvBbOg" >![Dia 22](./assets/img/demo-challenge-22.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/OJvBbOg) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2022) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6964322819383943168-NpZF)**
+
+---
+
+##  Desafio dia 23 - Botão de download com efeito hover e active <a name="id23"></a>
+<a href="https://codepen.io/theslladev/full/xxWyjyJ" >![Dia 23](./assets/img/demo-challenge-23.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/xxWyjyJ) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2023) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6964688567952379904-T-Z0)**
 
 ---
 
