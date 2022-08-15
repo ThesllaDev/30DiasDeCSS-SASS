@@ -4,9 +4,9 @@
 
  Créditos a idealizadora do desafio 30 dias de <abbr title="Cascading Style Sheets">CSS</abbr> [@MilenaCarecho](https://github.com/MilenaCarecho) ⭐
  Repositório original do desafio: [30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS) ⭐
- 
- ## Website desenvolvido por min com todos os meus desafios: 
- 🌐 Link do website: https://theslladev.github.io/30DiasDeCSS-SASS/ 
+
+ ## Website desenvolvido por min com todos os meus desafios:
+ 🌐 Link do website: https://theslladev.github.io/30DiasDeCSS-SASS/
 
 https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-b940-4146c50caf37.mp4
 
@@ -83,6 +83,7 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 * [Dia 21 - Gotejamento líquido em slow motion](#id21) ✔️
 * [Dia 22 - Ícones de notificação e alertas saltitante](#id22) ✔️
 * [Dia 23 - Botão de download com efeito hover e active](#id23) ✔️
+* [Dia 24 - Infinite Loading](#id24) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -242,6 +243,13 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 <a href="https://codepen.io/theslladev/full/xxWyjyJ" >![Dia 23](./assets/img/demo-challenge-23.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/xxWyjyJ) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2023) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6964688567952379904-T-Z0)**
+
+---
+
+##  Desafio dia 24 - Infinite Loading <a name="id24"></a>
+<a href="https://codepen.io/theslladev/full/jOzejpo" >![Dia 24](./assets/img/demo-challenge-24.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/jOzejpo) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2024) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6964966862765895680-4L2s)**
 
 ---
 
