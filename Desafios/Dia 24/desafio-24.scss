@@ -1,0 +1,44 @@
+@use "../../assets/styles/base/reset";
+@use "sass:math";
+
+$amount: 100;
+$animationDuration: 4s;
+$particleSize: 3vmin;
+
+body {
+	background: #000;
+	height: 100vh;
+	width: 100vw;
+}
+
+span {
+	animation: movement $animationDuration ease-in-out infinite;
+	border-radius: $particleSize;
+	height: $particleSize;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	width: $particleSize;
+
+	@for $i from 1 through $amount {
+		&:nth-child(#{$i}) {
+			$ratio: math.div($i, $amount);
+			$offset: if($i % 2==0, 30vmin, -30vmin);
+			animation-delay: ($ratio * 0.5) * $animationDuration;
+			background: hsl($ratio * 360deg, 70%, 50%);
+			transform-origin: $offset 0px;
+		}
+	}
+}
+
+@keyframes movement {
+	1% {
+		z-index: 100;
+	}
+
+	60%,
+	100% {
+		transform: rotate(360deg);
+		z-index: 0;
+	}
+}

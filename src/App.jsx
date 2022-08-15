@@ -121,6 +121,11 @@ const PROJECTDATAS = [
 		title: "Botão de download com efeito hover e active",
 		deploy: "https://codepen.io/theslladev/full/xxWyjyJ",
 	},
+	{
+		id: "24",
+		title: "Infinite Loading",
+		deploy: "https://codepen.io/theslladev/full/jOzejpo",
+	},
 ];
 
 function App() {
