@@ -126,6 +126,11 @@ const PROJECTDATAS = [
 		title: "Infinite Loading",
 		deploy: "https://codepen.io/theslladev/full/jOzejpo",
 	},
+	{
+		id: "25",
+		title: "Checkbox com efeitos de selecionados",
+		deploy: "https://codepen.io/theslladev/full/RwMqMex",
+	},
 ];
 
 function App() {
