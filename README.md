@@ -84,6 +84,7 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 * [Dia 22 - Ícones de notificação e alertas saltitante](#id22) ✔️
 * [Dia 23 - Botão de download com efeito hover e active](#id23) ✔️
 * [Dia 24 - Infinite Loading](#id24) ✔️
+* [Dia 25 - Checkbox com efeitos de selecionados](#id25) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -250,6 +251,13 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 <a href="https://codepen.io/theslladev/full/jOzejpo" >![Dia 24](./assets/img/demo-challenge-24.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/jOzejpo) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2024) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6964966862765895680-4L2s)**
+
+---
+
+##  Desafio dia 25 - Checkbox com efeitos de selecionados <a name="id25"></a>
+<a href="https://codepen.io/theslladev/full/RwMqMex" >![Dia 25](./assets/img/demo-challenge-25.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/RwMqMex) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2025) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6965369287096061952-vU0y)**
 
 ---
 
