@@ -85,6 +85,7 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 * [Dia 23 - Botão de download com efeito hover e active](#id23) ✔️
 * [Dia 24 - Infinite Loading](#id24) ✔️
 * [Dia 25 - Checkbox com efeitos de selecionados](#id25) ✔️
+* [Dia 26 - Esfera 3D de partículas](#id26) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -258,6 +259,13 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 <a href="https://codepen.io/theslladev/full/RwMqMex" >![Dia 25](./assets/img/demo-challenge-25.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/RwMqMex) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2025) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6965369287096061952-vU0y)**
+
+---
+
+##  Desafio dia 26 - Esfera 3D de partículas <a name="id26"></a>
+<a href="https://codepen.io/theslladev/full/QWmzpQW" >![Dia 26](./assets/img/demo-challenge-26.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/QWmzpQW) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2026) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6965815519618682880-pCzd)**
 
 ---
 
