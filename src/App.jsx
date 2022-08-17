@@ -131,6 +131,11 @@ const PROJECTDATAS = [
 		title: "Checkbox com efeitos de selecionados",
 		deploy: "https://codepen.io/theslladev/full/RwMqMex",
 	},
+	{
+		id: "26",
+		title: "Esfera 3D de partículas",
+		deploy: "https://codepen.io/theslladev/full/QWmzpQW",
+	},
 ];
 
 function App() {
