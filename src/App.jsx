@@ -136,6 +136,11 @@ const PROJECTDATAS = [
 		title: "Esfera 3D de partículas",
 		deploy: "https://codepen.io/theslladev/full/QWmzpQW",
 	},
+	{
+		id: "27",
+		title: "Explosão de confetes de festa",
+		deploy: "https://codepen.io/theslladev/full/gOeZqJr",
+	},
 ];
 
 function App() {

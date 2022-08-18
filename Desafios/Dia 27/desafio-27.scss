@@ -1,0 +1,68 @@
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+
+$colors: #a020f0, #d90429, #ff5800, #007fff;
+
+body {
+	background: #001;
+	overflow: hidden;
+}
+
+h1 {
+	color: white;
+	margin-top: 50vh;
+	text-align: center;
+}
+
+.emoji {
+	bottom: 20px;
+	font-size: 3.75em;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%) rotate(-45deg);
+	z-index: 1;
+
+	@media (min-width: 700px) {
+		font-size: 7.5em;
+	}
+}
+
+span {
+	animation: pop 4s infinite ease-in;
+	border-radius: 50%;
+	bottom: 60px;
+	@include mix.sizer(10px);
+	left: calc(50% - 5px);
+	position: absolute;
+
+	@media (min-width: 700px) {
+		bottom: 100px;
+		@include mix.sizer(15px);
+	}
+
+	@for $i from 1 through 500 {
+		&:nth-child(#{$i}) {
+			animation-delay: random() * -6s;
+			animation-duration: random() * 4s + 2s;
+			background-color: nth($colors, random(length($colors)));
+			opacity: 0;
+			$originX: (random() * 40vw + 20vw);
+
+			@if (random() > 0.5) {
+				transform: translate3d(random() * 50vw, 0px, 0px) rotate(250deg);
+			} @else {
+				transform: translate3d(random() * -50vw, 0px, 0px) rotate(-250deg);
+				$originX: $originX * -1;
+			}
+
+			transform-origin: $originX 5vh;
+		}
+	}
+}
+
+@keyframes pop {
+	from {
+		opacity: 1;
+		transform: translate3d(0, 0px, 0px) rotate(0deg);
+	}
+}
