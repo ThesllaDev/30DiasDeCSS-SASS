@@ -1,0 +1,43 @@
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+
+body {
+	background-color: #333;
+	flex-wrap: wrap;
+	height: 100vh;
+	@include mix.flex-center();
+}
+
+h1 {
+	color: #333;
+	font-size: calc(1vw + 1vh + 7vmin);
+	position: relative;
+	text-transform: capitalize;
+	white-space: nowrap;
+
+	&::before {
+		animation: typing 6s linear infinite;
+		border-right: 3px solid #01cbfe;
+		color: #01cbfe;
+		content: attr(data-text);
+		height: 100%;
+		left: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		width: 0;
+	}
+}
+
+@keyframes typing {
+	0%,
+	10%,
+	100% {
+		width: 0;
+	}
+
+	70%,
+	90% {
+		width: 100%;
+	}
+}

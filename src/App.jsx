@@ -146,6 +146,11 @@ const PROJECTDATAS = [
 		title: "Efeito de bolhas submersas, subindo",
 		deploy: "https://codepen.io/theslladev/full/yLKZPzq",
 	},
+	{
+		id: "29",
+		title: "Efeito de impressão de texto",
+		deploy: "https://codepen.io/theslladev/full/oNqmPBB",
+	},
 ];
 
 function App() {
