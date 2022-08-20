@@ -88,6 +88,7 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 * [Dia 26 - Esfera 3D de partículas](#id26) ✔️
 * [Dia 27 - Explosão de confetes de festa](#id27) ✔️
 * [Dia 28 - Efeito de bolhas submersas, subindo](#id28) ✔️
+* [Dia 29 - Efeito de impressão de texto](#id29) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -282,6 +283,13 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 <a href="https://codepen.io/theslladev/full/yLKZPzq" >![Dia 28](./assets/img/demo-challenge-28.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/yLKZPzq) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2028) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6966552260302516224-hMqi)**
+
+---
+
+##  Desafio dia 29 - Efeito de impressão de texto <a name="id29"></a>
+<a href="https://codepen.io/theslladev/full/oNqmPBB" >![Dia 29](./assets/img/demo-challenge-29.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/oNqmPBB) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2029) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6966773621046300672-zv_m)**
 
 ---
 
