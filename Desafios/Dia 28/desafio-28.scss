@@ -1,0 +1,61 @@
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+
+$bubble-max-delay: 12000;
+$bubble-max-speed: 15000;
+$bubble-min-speed: 5000;
+$bubble-size: 3rem;
+
+body {
+	background-image: url("img/underwater.jpg");
+	background-size: cover;
+	overflow: hidden;
+	height: 100vh;
+	width: 100vw;
+}
+
+.bottom-bubbles {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+
+	.bubble {
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 50%;
+		bottom: -$bubble-size;
+		@include mix.sizer($bubble-size);
+		opacity: 0;
+		position: absolute;
+
+		@for $i from 1 through 200 {
+			$speed: random($bubble-max-speed) + 0ms;
+
+			@if $speed < $bubble-min-speed {
+				$speed: $bubble-min-speed + 0ms;
+			}
+
+			&:nth-child(#{$i}) {
+				animation: blow $speed infinite;
+				animation-delay: random($bubble-max-delay) + 0ms;
+				left: random(100) + 0%;
+			}
+		}
+	}
+}
+
+@keyframes blow {
+	0% {
+		opacity: 0;
+		transform: translate(0, 0);
+	}
+
+	20% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+		transform: translate(0, -100vh) scale(0.2);
+	}
+}

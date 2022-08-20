@@ -141,6 +141,11 @@ const PROJECTDATAS = [
 		title: "Explosão de confetes de festa",
 		deploy: "https://codepen.io/theslladev/full/gOeZqJr",
 	},
+	{
+		id: "28",
+		title: "Efeito de bolhas submersas, subindo",
+		deploy: "https://codepen.io/theslladev/full/yLKZPzq",
+	},
 ];
 
 function App() {
