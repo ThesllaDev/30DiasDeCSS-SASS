@@ -1,0 +1,208 @@
+@use "../../assets/styles/base/mixins" as mix;
+@use "../../assets/styles/base/reset";
+@use "sass:math";
+
+$box-shadow: ();
+$box-shadow2: ();
+$height: 500;
+$amount-of-particles: 60;
+$width: 500;
+
+@for $i from 0 through $amount-of-particles {
+	$box-shadow: $box-shadow,
+		random($width) -
+			math.div($width, 2) +
+			px
+			random($height) -
+			math.div($height, 1.2) +
+			px
+			hsl(random(360), 100%, 50%);
+	$box-shadow2: $box-shadow2, 0 0 #fff;
+}
+
+@mixin keyframes($animationName) {
+	@-webkit-keyframes #{$animationName} {
+		@content;
+	}
+
+	@-moz-keyframes #{$animationName} {
+		@content;
+	}
+
+	@-o-keyframes #{$animationName} {
+		@content;
+	}
+
+	@-ms-keyframes #{$animationName} {
+		@content;
+	}
+
+	@keyframes #{$animationName} {
+		@content;
+	}
+}
+
+@mixin animation-delay($settings) {
+	animation-delay: $settings;
+	-moz-animation-delay: $settings;
+	-ms-animation-delay: $settings;
+	-o-animation-delay: $settings;
+	-webkit-animation-delay: $settings;
+}
+
+@mixin animation-duration($settings) {
+	animation-duration: $settings;
+	-moz-animation-duration: $settings;
+	-ms-animation-duration: $settings;
+	-o-animation-duration: $settings;
+	-webkit-animation-duration: $settings;
+}
+
+@mixin animation($settings) {
+	animation: $settings;
+	-moz-animation: $settings;
+	-ms-animation: $settings;
+	-o-animation: $settings;
+	-webkit-animation: $settings;
+}
+
+@mixin transform($settings) {
+	-moz-transform: $settings;
+	-ms-transform: $settings;
+	-o-transform: $settings;
+	transform: $settings;
+	-webkit-transform: $settings;
+}
+
+body {
+	background: #001;
+	overflow: hidden;
+}
+
+.container > .before,
+.container > .after {
+	border-radius: 50%;
+	box-shadow: $box-shadow2;
+	@include mix.sizer(9px);
+	@include animation(
+		(
+			1s bang ease-out infinite backwards,
+			1s gravity ease-in infinite backwards,
+			5s position linear infinite backwards
+		)
+	);
+	position: absolute;
+}
+
+.container > .after {
+	@include animation-delay((1.25s, 1.25s, 1.25s));
+	@include animation-duration((1.25s, 1.25s, 6.25s));
+}
+
+@include keyframes(bang) {
+	to {
+		box-shadow: $box-shadow;
+	}
+}
+
+@include keyframes(gravity) {
+	to {
+		@include transform(translateY(200px));
+		opacity: 0;
+	}
+}
+
+@include keyframes(position) {
+	0%,
+	19.9% {
+		margin-top: 10%;
+		margin-left: 40%;
+	}
+
+	20%,
+	39.9% {
+		margin-top: 40%;
+		margin-left: 30%;
+	}
+
+	40%,
+	59.9% {
+		margin-top: 20%;
+		margin-left: 70%;
+	}
+
+	60%,
+	79.9% {
+		margin-top: 30%;
+		margin-left: 20%;
+	}
+
+	80%,
+	99.9% {
+		margin-top: 30%;
+		margin-left: 80%;
+	}
+}
+
+.circle-tunes {
+	background: #4992ad;
+	@include mix.sizer(200px);
+	left: 40%;
+	position: fixed;
+	top: 40%;
+	transform: perspective(3000px);
+	transform-style: preserve-3d;
+
+	&::after {
+		border-radius: 200px;
+		box-shadow: 0 0 20px 0px #fff, 0 0 0 30px #cf331f, 0 0 20px 30px #fff,
+			0 0 0 60px #cf331f, 0 0 20px 60px #fff, 0 0 0 90px #cf331f,
+			0 0 20px 90px #fff, 0 0 0 120px #cf331f, 0 0 20px 120px #fff,
+			0 0 0 150px #cf331f;
+		content: " ";
+		display: block;
+		@include mix.sizer(98%);
+		left: 1%;
+		position: relative;
+		top: 1%;
+		transform: translateZ(20px);
+	}
+
+	&::before {
+		animation: zoom 4s ease-in-out infinite forwards;
+		background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Porky_Pig.svg/800px-Porky_Pig.svg.png")
+			no-repeat center/contain;
+		bottom: -12%;
+		content: " ";
+		display: block;
+		filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.5));
+		height: 150%;
+		left: 10%;
+		position: absolute;
+		transform: rotateX(-10deg);
+		transform-origin: center 120%;
+		width: 80%;
+	}
+}
+
+@keyframes zoom {
+	0% {
+		filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0));
+		transform: rotateX(-10deg) scale(0.66);
+	}
+
+	40% {
+		filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.5));
+		transform: rotateZ(-10deg) rotateX(-10deg) scale(1);
+	}
+
+	60% {
+		filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.5));
+		transform: rotateZ(-10deg) rotateX(-10deg) scale(1);
+	}
+
+	100% {
+		filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0));
+		transform: rotateX(-10deg) scale(0.66);
+	}
+}

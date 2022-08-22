@@ -151,6 +151,11 @@ const PROJECTDATAS = [
 		title: "Efeito de impressão de texto",
 		deploy: "https://codepen.io/theslladev/full/oNqmPBB",
 	},
+	{
+		id: "30",
+		title: "Fogos de artifícios e cumprimento de finalização",
+		deploy: "https://codepen.io/theslladev/full/poLYgOM",
+	},
 ];
 
 function App() {
