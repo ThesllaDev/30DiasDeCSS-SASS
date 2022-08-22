@@ -89,6 +89,7 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 * [Dia 27 - Explosão de confetes de festa](#id27) ✔️
 * [Dia 28 - Efeito de bolhas submersas, subindo](#id28) ✔️
 * [Dia 29 - Efeito de impressão de texto](#id29) ✔️
+* [Dia 30 - Fogos de artifícios e cumprimento de finalização](#id30) ✔️
 
 ##  Desafio dia 01 - Ícones de mídias sociais em camadas <a name="id01"></a>
 <a href="https://codepen.io/theslladev/full/NWYgoNy" >![Dia 01](./assets/img/demo-challenge-01.gif)</a>
@@ -290,6 +291,13 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 <a href="https://codepen.io/theslladev/full/oNqmPBB" >![Dia 29](./assets/img/demo-challenge-29.gif)</a>
 
 **[Veja o funcionando](https://codepen.io/theslladev/full/oNqmPBB) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2029) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6966773621046300672-zv_m)**
+
+---
+
+##  Desafio dia 30 - Fogos de artifícios e cumprimento de finalização <a name="id30"></a>
+<a href="https://codepen.io/theslladev/full/poLYgOM" >![Dia 30](./assets/img/demo-challenge-30.gif)</a>
+
+**[Veja o funcionando](https://codepen.io/theslladev/full/poLYgOM) | [Meu codigo](https://github.com/ThesllaDev/30DiasDeCSS-SASS/tree/main/Desafios/Dia%2030) | [Post LinkedIn](https://www.linkedin.com/posts/thalles-augusto_30diasdecss-css-css3-activity-6967301352897024000-r-Tq)**
 
 ---
 
