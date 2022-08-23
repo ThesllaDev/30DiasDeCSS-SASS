@@ -57,6 +57,11 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 - Uso do loop `@for` (Útil quando combinado com pseudo-seletores `:nth-*` do <abbr title="Cascading Style Sheets">CSS</abbr>)
 - `@mixins` (Os mixins são parecido com a funcionalidade "@extend", porém os mixins funcionam e tem sua sintaxe semelhante com funções em JavaScript e aceitam parâmetros para tornar seu código mais flexível)
 - Loop `@each` (faz um loop sobre cada item em uma lista(semelhante a um array em JavaScript) ou mapa(semelhante a um objeto em JavaScript))
+- Módulos de construção:
+  - `:map` Para mapear objetos
+  - `:math` Realizar operações matemáticas
+- Uso e manipulação de SVG(Scalable Vector Graphics)
+- Fluxo de controle `@if` (Para executar o código com base em uma condição)
 
 ### Índice dos desafios: 📋
 
