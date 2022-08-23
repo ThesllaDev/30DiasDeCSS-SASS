@@ -5,7 +5,7 @@
  Créditos a idealizadora do desafio 30 dias de <abbr title="Cascading Style Sheets">CSS</abbr> [@MilenaCarecho](https://github.com/MilenaCarecho) ⭐
  Repositório original do desafio: [30diasDeCSS](https://github.com/MilenaCarecho/30diasDeCSS) ⭐
 
- ## Website desenvolvido por min com todos os meus desafios:
+ ## Website desenvolvido por mim com todos os meus desafios:
  🌐 Link do website: https://theslladev.github.io/30DiasDeCSS-SASS/
 
 https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-b940-4146c50caf37.mp4
@@ -49,6 +49,7 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
 
 ### Principais tópicos que aprendi durante o processo
 
+Hard Skills:
 - Variáveis <abbr title="Syntactically Awesome Style Sheets">SASS</abbr> (Muito usadas para armazenar informações e reutilizar)
 - Módulo `@use` (Para carregar e combinar múltiplas folhas de estilo)
 - Arquivos <abbr title="Syntactically Awesome Style Sheets">SASS</abbr> parciais (São arquivos que devem ser importados mas não compilados)
@@ -62,6 +63,13 @@ https://user-images.githubusercontent.com/61105850/184552958-47a6b829-044c-4009-
   - `:math` Realizar operações matemáticas
 - Uso e manipulação de SVG(Scalable Vector Graphics)
 - Fluxo de controle `@if` (Para executar o código com base em uma condição)
+
+Soft Skills:
+- Networking/Comunicação
+- Disciplina
+- Comprometimento
+- Dedicação
+- Criatividade
 
 ### Índice dos desafios: 📋
 
